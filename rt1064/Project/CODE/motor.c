@@ -190,17 +190,17 @@ void motor_control(bool run)
     }
 
     if(duty1>=0){
-        gpio_set(DIR_1,1);
+        gpio_set(DIR_1,0);
         pwm_duty(PWM_1,duty1);
     } else {
-        gpio_set(DIR_1,0);
+        gpio_set(DIR_1,1);
         pwm_duty(PWM_1,-duty1);
     }
     if(duty2>=0){
-        gpio_set(DIR_2,0);
+        gpio_set(DIR_2,1);
         pwm_duty(PWM_2,duty2);
     } else {
-        gpio_set(DIR_2,1);
+        gpio_set(DIR_2,0);
         pwm_duty(PWM_2,-duty2);
     }
 

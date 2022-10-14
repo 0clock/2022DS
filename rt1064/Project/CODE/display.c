@@ -9,8 +9,9 @@
 #include "flash_param.h"
 #include "carmove.h"
 #include "openart_mini.h"
+#include "smotor.h"
 
-enum Gui_Page Page_Number=AboutPage;
+enum Gui_Page Page_Number=InfoPage;
 bool Gui_Page_Active=true;
 
 extern image_t img_raw;
@@ -23,7 +24,7 @@ extern double getAngel_k;
 extern float pictureP,pictureI,pictureD;
 
 
-void GUI_Motor(){
+void gui_info(){
     ips200_showstr(0,1,"Encoder:");
     ips200_showint16(5,2,RC_encoder1);
     ips200_showint16(5,3,RC_encoder2);
@@ -33,9 +34,6 @@ void GUI_Motor(){
     ips200_showfloat(5,7,Car.Angel,3,4);
 }
 
-void GUI_icm20602(){
-
-}
 
 
 void GUI_TargetPoint(){
@@ -114,7 +112,7 @@ void display_page(){
     switch(Page_Number){
         case InfoPage:
             ips200_showstr(0,0,"Info:");
-            GUI_icm20602();
+            gui_info();
             break;
         case ConfigPage:
             ips200_showstr(0,0,"Config:");
@@ -145,8 +143,8 @@ void display_page(){
 //            ips200_drawline(66+Xb,26+Yl,66+Xt,26+Yl,BLUE);
             break;
         case AboutPage:
-            ips200_showstr(0,0,"Control:");
-            GUI_Motor();
+            ips200_showstr(0,0,"About:");
+
             break;
     }
 }
@@ -154,6 +152,8 @@ void display_page(){
 
 void display_entry(void *parameter)
 {
+    back_garage();
+
     while(1){
         display_page();
         //ips200_showstr(10,0,"camera");

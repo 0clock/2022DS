@@ -13,7 +13,7 @@
 
 void smotor_init(void)
 {
-    pwm_init(SMOTOR1_PIN, 50, SMOTOR1_CENTER+1600);
+    pwm_init(SMOTOR1_PIN, 50, SMOTOR1_CENTER+100);
     gpio_init(ELECTROMAG_PIN,GPO,0,GPIO_PIN_CONFIG);
     //smotor1_control(2800);
 /*    pwm_init(SMOTOR2_PIN, 50, SMOTOR2_CENTER);
@@ -22,7 +22,7 @@ void smotor_init(void)
 
 void smotor1_control(int16 duty)
 {
-    pwm_duty(SMOTOR1_PIN, (int16)SMOTOR1_CENTER + duty);
+    pwm_duty(SMOTOR1_PIN, (int16)SMOTOR1_CENTER + duty+100);
 }
 
 void smotor2_control(int16 duty)

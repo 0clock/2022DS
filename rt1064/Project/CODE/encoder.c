@@ -34,8 +34,8 @@ void omni_mileage(){
 
 void encoder_get(void)
 {
-    encoder1 = qtimer_quad_get(QTIMER_1,QTIMER1_TIMER0_C0 ); //这里需要注意第二个参数务必填写A相引脚
-    encoder2 = -qtimer_quad_get(QTIMER_1,QTIMER1_TIMER2_C2); //这里需要注意第二个参数务必填写A相引脚
+    encoder1 = -qtimer_quad_get(QTIMER_1,QTIMER1_TIMER0_C0 ); //这里需要注意第二个参数务必填写A相引脚
+    encoder2 = qtimer_quad_get(QTIMER_1,QTIMER1_TIMER2_C2); //这里需要注意第二个参数务必填写A相引脚
     //计算位移(单位：m)
     //Car.mileage=(Encoder/1024)*(45/104)*2*PI*0.03;
     omni_mileage();

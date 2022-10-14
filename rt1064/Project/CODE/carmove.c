@@ -378,5 +378,23 @@ void carmove_mileage(float x,float y){
 }
 
 void back_garage(){
+    float angeltemp;
+    smotor1_control(-400);
+    angeltemp=Car.Angel;
+    while(1){
+        car_go(-3,-3);
+        if(Car.Angel-angeltemp>=85){
+            rt_mb_send(buzzer_mailbox, 100);
+            smotor1_control(0);
+            break;
+        }
+    }
+    car_go(-3,-3);
+    rt_thread_delay(500);
+    rt_mb_send(buzzer_mailbox,100);
+    car_stop();
+    rt_thread_delay(5000);
+    rt_mb_send(buzzer_mailbox, 100);
+    car_stop();
 
 }
