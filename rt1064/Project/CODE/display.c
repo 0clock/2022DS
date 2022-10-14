@@ -32,6 +32,9 @@ void gui_info(){
 
     ips200_showstr(0,6,"Angel:");
     ips200_showfloat(5,7,Car.Angel,3,4);
+
+    ips200_showstr(0,9,"Line:");
+    ips200_showint8(5,10,road_location);
 }
 
 
@@ -152,7 +155,7 @@ void display_page(){
 
 void display_entry(void *parameter)
 {
-    back_garage();
+
 
     while(1){
         display_page();

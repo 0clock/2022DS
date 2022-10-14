@@ -13,6 +13,7 @@
 extern const float PI;
 extern uint16 msecond,time_second;
 int nextpoint=0;
+int smotor_duty=0;
 bool isgetpicture;
 
 int angelTarget;
@@ -377,6 +378,10 @@ void carmove_mileage(float x,float y){
     reset_mileage();
 }
 
+void car_xunxian(){
+    smotor_duty=picture_xerror_pid(road_location,90);
+}
+
 void back_garage(){
     float angeltemp;
     smotor1_control(-400);
@@ -389,6 +394,7 @@ void back_garage(){
             break;
         }
     }
+
     car_go(-3,-3);
     rt_thread_delay(500);
     rt_mb_send(buzzer_mailbox,100);
@@ -396,5 +402,16 @@ void back_garage(){
     rt_thread_delay(5000);
     rt_mb_send(buzzer_mailbox, 100);
     car_stop();
-
+    angeltemp=Car.Angel;
+    car_go(3,3);
+    rt_thread_delay(500);
+    smotor1_control(-400);
+    while (1){
+        if(angeltemp-abs(Car.Angel)>=20){
+            smotor1_control(0);
+            break;
+        }
+    }
+    rt_thread_delay(1000);
+    car_stop();
 }

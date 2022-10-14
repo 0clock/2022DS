@@ -126,4 +126,5 @@
   ..\CODE\openart_mini.h ..\CODE\smotor.h ..\CODE\location.h \
   ..\CODE\attitude_solution.h ..\CODE\vofa.h ..\CODE\Vofa_imageformat.h \
   ..\CODE\motor.h ..\CODE\flash_param.h ..\CODE\imgproc.h \
-  ..\CODE\carmove.h ..\CODE\MahonyAHRS.h ..\CODE\sendmsg.h
+  ..\CODE\carmove.h ..\CODE\MahonyAHRS.h ..\CODE\sendmsg.h \
+  ..\CODE\task.h

@@ -52,6 +52,7 @@ extern bool isDetection;
 
 extern int32 picture_location[2];
 extern uint8 edge_rotation[2];
+extern uint8 road_location;
 
 extern openart_param_t openart;
 
