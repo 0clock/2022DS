@@ -35,6 +35,9 @@ void gui_info(){
 
     ips200_showstr(0,9,"Line:");
     ips200_showint8(5,10,road_location);
+
+    ips200_showstr(0,12,"Smotor:");
+    ips200_showint16(5,13,smotor_duty);
 }
 
 

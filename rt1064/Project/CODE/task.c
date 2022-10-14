@@ -3,8 +3,13 @@
 //
 #include "task.h"
 #include "carmove.h"
+#include "motor.h"
 
 void task_entry(){
+    car_go(5,5);
+    while(1){
+        car_xunxian();
+    }
     //back_garage();
 }
 void task_init(void)

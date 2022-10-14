@@ -380,6 +380,9 @@ void carmove_mileage(float x,float y){
 
 void car_xunxian(){
     smotor_duty=picture_xerror_pid(road_location,90);
+    if(road_location!=0){
+        smotor1_control(smotor_duty);
+    }
 }
 
 void back_garage(){

@@ -23,7 +23,7 @@ bool havePicture;
 bool isDetection=false;
 uint8 nowpointmp=0;
 uint8 edge_rotation[2]={0};
-uint8 road_location=110;
+uint8 road_location=0;
 
 void openart_uart1_callback(LPUART_Type *base, lpuart_handle_t *handle, status_t status, void *userData)
 {

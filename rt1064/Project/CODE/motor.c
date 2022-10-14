@@ -11,7 +11,7 @@
 int32 duty1=0,duty2=0;//µç»úPWMÖµ
 
 
-float pictureP=0.15f,pictureI=0,pictureD=0.03f;
+float pictureP=10,pictureI=0,pictureD=0.5;
   
 
 
@@ -117,10 +117,10 @@ int picture_xerror_pid(int16 now_x,int16 target_x){
     Integral_bias+=Bias;
     Speed_X=-pictureP*Bias+pictureI*Integral_bias+pictureD*(Bias-Last_Bias);
     Last_Bias=Bias;
-    if(Speed_X>=10)
-        Speed_X=10;
-    if(Speed_X<=-10)
-        Speed_X=-10;
+    if(Speed_X>=400)
+        Speed_X=400;
+    if(Speed_X<=-400)
+        Speed_X=-400;
     return (int)Speed_X;
 }
 

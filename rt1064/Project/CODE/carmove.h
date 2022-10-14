@@ -7,6 +7,7 @@
 #include "headfile.h"
 
 extern int nextpoint;
+extern int smotor_duty;
 void car_noheadmove(void);
 void car_omnimove(void);
 void car_return(void);
