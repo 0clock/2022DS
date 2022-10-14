@@ -10,9 +10,9 @@
 
 
 
-#define KEY_1   C27	// 定义主板上按键对应引脚
-#define KEY_2   C26	// 定义主板上按键对应引脚
-#define KEY_3   C31	// 定义主板上按键对应引脚
+#define KEY_1   C31	// 定义主板上按键对应引脚
+#define KEY_2   C27	// 定义主板上按键对应引脚
+#define KEY_3   C26	// 定义主板上按键对应引脚
 #define KEY_4   C4	// 定义主板上按键对应引脚
 
 enum Config_Action config_action;

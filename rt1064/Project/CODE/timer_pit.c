@@ -53,7 +53,6 @@ void timer1_pit_entry(void *parameter)
 
 
     Car.Speed_Z=-angel_pid(  eulerAngle.yaw,angelTarget);//omnimove模式下目标方向一直为0
-    car_omni(Car.Speed_X,Car.Speed_Y,Car.Speed_Z);
     //控制电机转动
     motor_control(true);
 

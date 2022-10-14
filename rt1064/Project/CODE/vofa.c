@@ -16,7 +16,7 @@ void vofa_Send(){
     //VOFA_pt->sendzip(VOFA_pt,VOFA_PROTOCOL_JUSTFLOAT,VOFA_CH_FRAME);
     //VOFA_pt->sendzip(VOFA_pt,VOFA_PROTOCOL_JUSTFLOAT,VOFA_CH_FRAME);
      //myprintf("%f,%f,%f\n",Angel_x,Angel_y,Angel_z);
-    myprintf("%d,%d,%d,%d,%d\n",RC_encoder1,RC_encoder2,RC_encoder3,RC_encoder4,speed_tar);
+    myprintf("%d,%d,%d,%d,%d\n",RC_encoder1,RC_encoder2,speed_tar);
 //    vofa_ch_data[0]=RC_encoder1;
 //    vofa_ch_data[1]=RC_encoder2;
 //    vofa_ch_data[2]=RC_encoder3;

@@ -148,6 +148,7 @@
 ".\objects\utils.o"
 ".\objects\mahonyahrs.o"
 ".\objects\carmove.o"
+".\objects\sendmsg.o"
 ".\objects\fsl_assert.o"
 ".\objects\fsl_debug_console.o"
 ".\objects\fsl_str.o"

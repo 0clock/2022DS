@@ -2400,10 +2400,10 @@ I (..\..\Libraries\seekfree_libraries\zf_iomuxc.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\zf_systick.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\common\SEEKFREE_PRINTF.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 F (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)()
 F (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/seekfree_font.o -MD)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_libraries\common\common.h)(0x62D0890D)
 I (..\..\Libraries\nxp_libraries\drives\fsl_common.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
@@ -2424,7 +2424,7 @@ I (..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h)(0x62D0890D)
 I (..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h)(0x62D0890D)
 I (..\..\Libraries\nxp_libraries\drives\fsl_clock.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x603507CA)
-F (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)()
+F (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)()
 F (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/seekfree_fun.o -MD)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\common\common.h)(0x62D0890D)
@@ -2644,7 +2644,7 @@ I (..\..\Libraries\seekfree_libraries\zf_gpio.h)(0x62D0890D)
 I (..\..\Libraries\nxp_libraries\drives\fsl_gpio.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\zf_systick.h)(0x62D0890D)
 I (..\..\Libraries\nxp_libraries\drives\fsl_lpspi.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_libraries\common\SEEKFREE_PRINTF.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_OLED.h)(0x62D0890D)
 F (..\..\Libraries\seekfree_peripheral\SEEKFREE_OLED.h)(0x62D0890D)()
@@ -2910,7 +2910,7 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\zf_uart.h)(0x62D0890D)
 I (..\..\Libraries\nxp_libraries\drives\fsl_lpuart.h)(0x62D0890D)
 F (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)()
-F (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/seekfree_ips114_spi.o -MD)
+F (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.c)(0x62E38157)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/seekfree_ips114_spi.o -MD)
 I (..\..\Libraries\seekfree_libraries\zf_spi.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\common\common.h)(0x62D0890D)
 I (..\..\Libraries\nxp_libraries\drives\fsl_common.h)(0x62D0890D)
@@ -2938,9 +2938,9 @@ I (..\..\Libraries\nxp_libraries\drives\fsl_gpio.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\zf_iomuxc.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\zf_systick.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\common\SEEKFREE_PRINTF.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
-F (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)()
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
+F (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)()
 F (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/seekfree_ips200_parallel8.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
 I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
@@ -2968,9 +2968,9 @@ I (..\..\Libraries\nxp_libraries\drives\fsl_lpspi.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\zf_gpio.h)(0x62D0890D)
 I (..\..\Libraries\nxp_libraries\drives\fsl_gpio.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\zf_iomuxc.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
-F (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)()
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
+F (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)()
 F (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/seekfree_imu963ra.o -MD)
 I (..\..\Libraries\seekfree_libraries\zf_systick.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\common\common.h)(0x62D0890D)
@@ -3323,10 +3323,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -3344,7 +3344,7 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
 I (..\USER\inc\isr.h)(0x62D0890D)
-F (..\USER\src\main.c)(0x62D94DEC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/main.o -MD)
+F (..\USER\src\main.c)(0x634904E4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/main.o -MD)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
 I (..\..\Libraries\nxp_libraries\drives\fsl_common.h)(0x62D0890D)
@@ -3440,10 +3440,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -3462,21 +3462,22 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
 I (..\CODE\display.h)(0x62D0890D)
 I (..\CODE\timer_pit.h)(0x62D0890D)
-I (..\CODE\encoder.h)(0x62D0890D)
+I (..\CODE\encoder.h)(0x6348E0D8)
 I (..\CODE\buzzer.h)(0x62D0890D)
 I (..\CODE\button.h)(0x62D0890D)
 I (..\CODE\motor.h)(0x62D6B20A)
 I (..\CODE\elec.h)(0x62D0890D)
-I (..\CODE\openart_mini.h)(0x62D73016)
+I (..\CODE\openart_mini.h)(0x62E38157)
 I (..\CODE\smotor.h)(0x62D0890D)
-I (..\CODE\location.h)(0x62D6B20A)
+I (..\CODE\location.h)(0x62E38157)
 I (..\CODE\attitude_solution.h)(0x62D0890D)
 I (..\CODE\vofa.h)(0x62D0890D)
 I (..\CODE\Vofa_imageformat.h)(0x62D0890D)
 I (..\CODE\flash_param.h)(0x62D0890D)
 I (..\CODE\imgproc.h)(0x62D0890D)
-I (..\CODE\carmove.h)(0x62D8F726)
+I (..\CODE\carmove.h)(0x62E38157)
 I (..\CODE\MahonyAHRS.h)(0x62D0890D)
+I (..\CODE\sendmsg.h)(0x62E38157)
 F (..\USER\inc\isr.h)(0x62D0890D)()
 F (..\USER\inc\RT106X_config.h)(0x62D53FC3)()
 F (..\..\Libraries\seekfree_libraries\headfile.h)(0x62D0890D)()
@@ -3578,10 +3579,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -3603,7 +3604,7 @@ I (..\CODE\display.h)(0x62D0890D)
 I (..\CODE\motor.h)(0x62D6B20A)
 I (..\CODE\flash_param.h)(0x62D0890D)
 I (..\CODE\ahrs.h)(0x62D0890D)
-I (..\CODE\location.h)(0x62D6B20A)
+I (..\CODE\location.h)(0x62E38157)
 I (..\CODE\attitude_solution.h)(0x62D0890D)
 F (..\CODE\button.h)(0x62D0890D)()
 F (..\CODE\buzzer.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/buzzer.o -MD)
@@ -3703,10 +3704,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -3724,7 +3725,7 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
 F (..\CODE\buzzer.h)(0x62D0890D)()
-F (..\CODE\display.c)(0x62D94C20)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/display.o -MD)
+F (..\CODE\display.c)(0x634904F1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/display.o -MD)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
 I (..\..\Libraries\nxp_libraries\drives\fsl_common.h)(0x62D0890D)
@@ -3820,10 +3821,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -3840,16 +3841,16 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_W25QXXJV.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
-I (..\CODE\encoder.h)(0x62D0890D)
+I (..\CODE\encoder.h)(0x6348E0D8)
 I (..\CODE\display.h)(0x62D0890D)
-I (..\CODE\location.h)(0x62D6B20A)
+I (..\CODE\location.h)(0x62E38157)
 I (..\CODE\button.h)(0x62D0890D)
 I (..\CODE\attitude_solution.h)(0x62D0890D)
 I (..\CODE\MahonyAHRS.h)(0x62D0890D)
 I (..\CODE\imgproc.h)(0x62D0890D)
 I (..\CODE\flash_param.h)(0x62D0890D)
-I (..\CODE\carmove.h)(0x62D8F726)
-I (..\CODE\openart_mini.h)(0x62D73016)
+I (..\CODE\carmove.h)(0x62E38157)
+I (..\CODE\openart_mini.h)(0x62E38157)
 F (..\CODE\display.h)(0x62D0890D)()
 F (..\CODE\elec.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/elec.o -MD)
 I (..\CODE\elec.h)(0x62D0890D)
@@ -3948,10 +3949,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -3969,8 +3970,8 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
 F (..\CODE\elec.h)(0x62D0890D)()
-F (..\CODE\encoder.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/encoder.o -MD)
-I (..\CODE\encoder.h)(0x62D0890D)
+F (..\CODE\encoder.c)(0x6348E019)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/encoder.o -MD)
+I (..\CODE\encoder.h)(0x6348E0D8)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
 I (..\..\Libraries\nxp_libraries\drives\fsl_common.h)(0x62D0890D)
@@ -4066,10 +4067,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -4087,10 +4088,10 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
 I (..\CODE\filter.h)(0x62D0890D)
-I (..\CODE\location.h)(0x62D6B20A)
+I (..\CODE\location.h)(0x62E38157)
 I (..\CODE\flash_param.h)(0x62D0890D)
-F (..\CODE\encoder.h)(0x62D0890D)()
-F (..\CODE\motor.c)(0x62D94D7E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/motor.o -MD)
+F (..\CODE\encoder.h)(0x6348E0D8)()
+F (..\CODE\motor.c)(0x634905A0)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/motor.o -MD)
 I (..\CODE\motor.h)(0x62D6B20A)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
@@ -4187,10 +4188,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -4207,11 +4208,11 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_W25QXXJV.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
-I (..\CODE\encoder.h)(0x62D0890D)
+I (..\CODE\encoder.h)(0x6348E0D8)
 I (..\CODE\flash_param.h)(0x62D0890D)
 F (..\CODE\motor.h)(0x62D6B20A)()
-F (..\CODE\timer_pit.c)(0x62D936F0)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/timer_pit.o -MD)
-I (..\CODE\encoder.h)(0x62D0890D)
+F (..\CODE\timer_pit.c)(0x6348E12E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/timer_pit.o -MD)
+I (..\CODE\encoder.h)(0x6348E0D8)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
 I (..\..\Libraries\nxp_libraries\drives\fsl_common.h)(0x62D0890D)
@@ -4307,10 +4308,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -4332,13 +4333,14 @@ I (..\CODE\timer_pit.h)(0x62D0890D)
 I (..\CODE\elec.h)(0x62D0890D)
 I (..\CODE\MahonyAHRS.h)(0x62D0890D)
 I (..\CODE\attitude_solution.h)(0x62D0890D)
-I (..\CODE\location.h)(0x62D6B20A)
+I (..\CODE\location.h)(0x62E38157)
 I (..\CODE\imgproc.h)(0x62D0890D)
 I (..\CODE\flash_param.h)(0x62D0890D)
-I (..\CODE\carmove.h)(0x62D8F726)
+I (..\CODE\carmove.h)(0x62E38157)
+I (..\CODE\openart_mini.h)(0x62E38157)
 F (..\CODE\timer_pit.h)(0x62D0890D)()
-F (..\CODE\openart_mini.c)(0x62D90691)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/openart_mini.o -MD)
-I (..\CODE\openart_mini.h)(0x62D73016)
+F (..\CODE\openart_mini.c)(0x62E38157)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/openart_mini.o -MD)
+I (..\CODE\openart_mini.h)(0x62E38157)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
 I (..\..\Libraries\nxp_libraries\drives\fsl_common.h)(0x62D0890D)
@@ -4434,10 +4436,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -4454,7 +4456,8 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_W25QXXJV.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
-F (..\CODE\openart_mini.h)(0x62D73016)()
+I (..\CODE\location.h)(0x62E38157)
+F (..\CODE\openart_mini.h)(0x62E38157)()
 F (..\CODE\smotor.c)(0x62D5D988)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/smotor.o -MD)
 I (..\CODE\smotor.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x62D0890D)
@@ -4552,10 +4555,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -4576,9 +4579,9 @@ F (..\CODE\smotor.h)(0x62D0890D)()
 F (..\CODE\filter.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/filter.o -MD)
 I (..\CODE\filter.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-F (..\CODE\location.c)(0x62D9600F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/location.o -MD)
+F (..\CODE\location.c)(0x62F1E123)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/location.o -MD)
 I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x603507CA)
-I (..\CODE\location.h)(0x62D6B20A)
+I (..\CODE\location.h)(0x62E38157)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x62D0890D)
@@ -4673,10 +4676,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -4795,10 +4798,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -4815,7 +4818,7 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_W25QXXJV.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
-F (..\CODE\vofa.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/vofa.o -MD)
+F (..\CODE\vofa.c)(0x6348E10A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/vofa.o -MD)
 I (..\CODE\vofa.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_libraries\common\common.h)(0x62D0890D)
 I (..\..\Libraries\nxp_libraries\drives\fsl_common.h)(0x62D0890D)
@@ -4914,10 +4917,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -4934,7 +4937,7 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_W25QXXJV.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
-I (..\CODE\encoder.h)(0x62D0890D)
+I (..\CODE\encoder.h)(0x6348E0D8)
 F (..\CODE\flash_param.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/flash_param.o -MD)
 I (..\CODE\flash_param.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
@@ -5079,10 +5082,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -5100,8 +5103,8 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
 I (..\CODE\attitude_solution.h)(0x62D0890D)
-F (..\CODE\carmove.c)(0x62D96147)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/carmove.o -MD)
-I (..\CODE\carmove.h)(0x62D8F726)
+F (..\CODE\carmove.c)(0x632D21EB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/carmove.o -MD)
+I (..\CODE\carmove.h)(0x62E38157)
 I (..\..\Libraries\seekfree_libraries\headfile.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
 I (..\..\Libraries\nxp_libraries\drives\fsl_common.h)(0x62D0890D)
@@ -5197,10 +5200,10 @@ I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
 I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62D0890D)
-I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
@@ -5217,12 +5220,130 @@ I (..\..\Libraries\seekfree_peripheral\SEEKFREE_W25QXXJV.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
 I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
-I (..\CODE\location.h)(0x62D6B20A)
+I (..\CODE\location.h)(0x62E38157)
 I (..\CODE\motor.h)(0x62D6B20A)
 I (..\CODE\buzzer.h)(0x62D0890D)
 I (..\CODE\attitude_solution.h)(0x62D0890D)
 I (..\CODE\smotor.h)(0x62D0890D)
-I (..\CODE\openart_mini.h)(0x62D73016)
+I (..\CODE\openart_mini.h)(0x62E38157)
+I (..\CODE\sendmsg.h)(0x62E38157)
+F (..\CODE\sendmsg.c)(0x62E38157)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/sendmsg.o -MD)
+I (..\CODE\sendmsg.h)(0x62E38157)
+I (..\..\Libraries\seekfree_libraries\headfile.h)(0x62D0890D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\Libraries\nxp_libraries\drives\fsl_common.h)(0x62D0890D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x603507CA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_version.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_compiler.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_armclang.h)(0x62D0890D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
+I (..\..\Libraries\nxp_libraries\CMSIS\Include\mpu_armv7.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_clock.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\utilities\debug_console\fsl_debug_console.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\components\serial_manager\serial_manager.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\components\serial_manager\serial_port_uart.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\components\uart\uart.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_iomuxc.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_pit.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\board\board.h)(0x62D0890D)
+I (..\USER\inc\RT106X_config.h)(0x62D53FC3)
+I (..\..\Libraries\seekfree_libraries\board\clock_config.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_gpio.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\board\pin_mux.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_cache.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\common\common.h)(0x62D0890D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x603507CA)
+I (..\..\Libraries\seekfree_libraries\zf_vector.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\middleware\fatfs\source\ff.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\middleware\fatfs\source\ffconf.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\middleware\fatfs\source\diskio.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\middleware\fatfs\source\fsl_sd_disk\fsl_sd_disk.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sd.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sdmmc_common.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sdmmc_host.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_usdhc.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sdmmc_spec.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\common\SEEKFREE_PRINTF.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_gpio.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_iomuxc.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_pit.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_pwm.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_pwm.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_uart.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_lpuart.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_spi.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_lpspi.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_systick.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_qtimer.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_qtmr.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_adc.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_adc.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_iic.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_lpi2c.h)(0x62D0890D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
+I (..\..\Libraries\seekfree_libraries\zf_flash.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_camera.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_flexio.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_dmamux.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_edma.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_csi.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_csi.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_rom_api.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\xip\EVKMIMXRT1064_FLEXSPI_NOR_CONFIG.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_rtwdog.h)(0x62D0890D)
+I (..\..\Libraries\nxp_libraries\drives\fsl_wdog.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_usb_cdc.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_libraries\zf_sdcard.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\include\rtthread.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\bsp\rtconfig.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\include\rtdebug.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\include\rtdef.h)(0x62D0890D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x603507D4)
+I (..\..\Libraries\rttherad_libraries\include\rtlibc.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\include\libc\libc_stat.h)(0x62D0890D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x603507D0)
+I (..\..\Libraries\rttherad_libraries\include\libc\libc_errno.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\include\libc\libc_fcntl.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\include\libc\libc_ioctl.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\include\libc\libc_dirent.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\include\libc\libc_signal.h)(0x62D0890D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x603507CA)
+I (..\..\Libraries\rttherad_libraries\include\libc\libc_fdset.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\include\libc\libc_limits.h)(0x62D0890D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\limits.h)(0x603507CA)
+I (..\..\Libraries\rttherad_libraries\include\libc\libc_stdio.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\include\rtservice.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\include\rtm.h)(0x62D0890D)
+I (..\..\Libraries\rttherad_libraries\components\finsh\finsh_api.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h)(0x62E38157)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h)(0x6348DBC3)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MPU6050.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_OLED.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_NRF24L01.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MMA8451.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_L3G4200D.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_ICM20602.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_WIRELESS.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X_CSI.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_W25QXXJV.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h)(0x62D0890D)
+I (..\..\Libraries\seekfree_peripheral\SEEKFREE_IMU963RA.h)(0x62D0890D)
 F (..\..\Libraries\nxp_libraries\utilities\fsl_assert.c)(0x62D0890D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c-fsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../CODE -I ../USER/inc -I ../USER/src -I ../../Libraries/seekfree_libraries -I ../../Libraries/nxp_libraries/CMSIS/Include -I ../../Libraries/nxp_libraries/cmsis_drivers -I ../../Libraries/nxp_libraries/drives -I ../../Libraries/nxp_libraries/startup -I ../../Libraries/nxp_libraries/startup/MDK-ARM -I ../../Libraries/nxp_libraries/utilities -I ../../Libraries/nxp_libraries/utilities/debug_console -I ../../Libraries/nxp_libraries/utilities/str -I ../../Libraries/nxp_libraries/xip -I ../../Libraries/nxp_libraries/deceive -I ../../Libraries/nxp_libraries/components/serial_manager -I ../../Libraries/nxp_libraries/components/uart -I ../../Libraries/nxp_libraries/components/lists -I ../../Libraries/nxp_libraries/components/osa -I ../../Libraries/nxp_libraries/components/serial_manager/usb_cdc_adapter -I ../../Libraries/nxp_libraries/middleware/usb/include -I ../../Libraries/nxp_libraries/middleware/usb/phy -I ../../Libraries/nxp_libraries/middleware/usb/device -I ../../Libraries/nxp_libraries/middleware/sdmmc/inc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc -I ../../Libraries/nxp_libraries/middleware/sdmmc/port/usdhc/interrupt -I ../../Libraries/nxp_libraries/middleware/sdmmc/src -I ../../Libraries/nxp_libraries/middleware/fatfs/source -I ../../Libraries/nxp_libraries/middleware/fatfs/source/fsl_sd_disk -I ../../Libraries/seekfree_libraries/common -I ../../Libraries/seekfree_libraries/board -I ../../Libraries/seekfree_peripheral -I ../../Libraries/rttherad_libraries/bsp -I ../../Libraries/rttherad_libraries/components/finsh -I ../../Libraries/rttherad_libraries/include -I ../../Libraries/rttherad_libraries/include/libc -fno-common  -fdata-sections  -ffreestanding  -fno-builtin  -mthumb -D__UVISION_VERSION="536" -DCPU_MIMXRT1064DVL6A -DCPU_MIMXRT1064DVL6A -DSKIP_SYSCLK_INIT -DXIP_EXTERNAL_FLASH="1" -DXIP_BOOT_HEADER_DCD_ENABLE="1" -DXIP_BOOT_HEADER_ENABLE="1" -DPRINTF_FLOAT_ENABLE="1" -DSCANF_FLOAT_ENABLE="1" -DPRINTF_ADVANCED_ENABLE="1" -DSCANF_ADVANCED_ENABLE="1" -DFSL_DRIVER_TRANSFER_DOUBLE_WEAK_IRQ="0" -DUSB_STACK_BM-o ./objects/fsl_assert.o -MD)
 I (..\..\Libraries\nxp_libraries\drives\fsl_common.h)(0x62D0890D)
 I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x603507D0)

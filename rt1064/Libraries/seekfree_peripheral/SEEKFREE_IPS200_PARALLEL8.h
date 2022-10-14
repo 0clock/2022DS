@@ -62,8 +62,8 @@
 //#define PINK    		    0XFE19	//粉色
 
 
-#define IPS200_BGCOLOR      WHITE	//背景颜色
-#define IPS200_PENCOLOR     RED		//画笔颜色
+#define IPS200_BGCOLOR      BLACK	//背景颜色
+#define IPS200_PENCOLOR     WHITE		//画笔颜色
 
 
 //引脚只能选择B C D这三个端口中的引脚，便于使用快速GPIO以提高显示速度

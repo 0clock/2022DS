@@ -2,17 +2,13 @@
 #include "encoder.h"
 #include "flash_param.h"
 
-#define DIR_1 D0
-#define DIR_2 D14
-#define DIR_3 D15
-#define DIR_4 D1
+#define DIR_1 D1
+#define DIR_2 D0
 #define PWM_LIMIT 25000
-#define PWM_1 PWM2_MODULE3_CHA_D2
-#define PWM_2 PWM1_MODULE0_CHA_D12
-#define PWM_3 PWM1_MODULE0_CHB_D13
-#define PWM_4 PWM2_MODULE3_CHB_D3
+#define PWM_1 PWM2_MODULE3_CHB_D3
+#define PWM_2 PWM2_MODULE3_CHA_D2
 
-int32 duty1=0,duty2=0,duty3=0,duty4=0;//电机PWM值
+int32 duty1=0,duty2=0;//电机PWM值
 
 
 float pictureP=0.15f,pictureI=0,pictureD=0.03f;
@@ -25,8 +21,6 @@ float pictureP=0.15f,pictureI=0,pictureD=0.03f;
 //电机目标速度
 int speed_tar_1 = 0;
 int speed_tar_2 = 0;
-int speed_tar_3 = 0;
-int speed_tar_4 = 0;
 
 double speed_tar = 0;//目标速度
 
@@ -34,86 +28,20 @@ double speed_tar = 0;//目标速度
 void motor_init(void)
 {
     gpio_init(DIR_1, GPO, 0, GPIO_PIN_CONFIG); 		//单片机端口D0 初始化DIR_1			GPIO
-    gpio_init(DIR_2, GPO, 0, GPIO_PIN_CONFIG); 		//单片机端口D1 初始化DIR_2			GPIO
     pwm_init(PWM_1, 17000, 0);      					//单片机端口D2 初始化PWM_1周期10K 占空比0
-    pwm_init(PWM_2, 17000, 0);     						//单片机端口D3 初始化PWM_2周期10K 占空比0
-    gpio_init(DIR_3, GPO, 0, GPIO_PIN_CONFIG);       //单片机端口D0 初始化DIR_1          GPIO
-    gpio_init(DIR_4, GPO, 0, GPIO_PIN_CONFIG);       //单片机端口D1 初始化DIR_2          GPIO
-    pwm_init(PWM_3, 17000, 0);                          //单片机端口D2 初始化PWM_1周期10K 占空比0
-    pwm_init(PWM_4, 17000, 0);                          //单片机端口D3 初始化PWM_2周期10K 占空比0											// PWM 通道4 初始化频率10KHz 占空比初始为0
+    gpio_init(DIR_2, GPO, 0, GPIO_PIN_CONFIG);       //单片机端口D1 初始化DIR_2          GPIO
+    pwm_init(PWM_2, 17000, 0);                          //单片机端口D3 初始化PWM_2周期10K 占空比0											// PWM 通道4 初始化频率10KHz 占空比初始为0
 }
 
-
-void car_omni(float x, float y, float z){
-    speed_tar_1= y + x + z;
-    speed_tar_2= y - x + z;
-    speed_tar_3= y + x - z;
-    speed_tar_4= y - x - z;
+void car_go(int left,int right){
+    speed_tar_1=left;
+    speed_tar_2=right;
 }
 
-
-
-void car_ahead(){
-    speed_tar_1 = speed_tar;
-    speed_tar_2 = speed_tar;
-    speed_tar_3 = speed_tar;
-    speed_tar_4 = speed_tar;
-}
-
-void car_back(){
-    speed_tar_1 = -speed_tar;
-    speed_tar_2 = -speed_tar;
-    speed_tar_3 = -speed_tar;
-    speed_tar_4 = -speed_tar;
-}
-
-void car_sideWay(){
-    speed_tar_1 = speed_tar;
-    speed_tar_2 = -speed_tar;
-    speed_tar_3 = speed_tar;
-    speed_tar_4 = -speed_tar;
-}
-
-void car_rsideWay(){
-    speed_tar_1 = -speed_tar;
-    speed_tar_2 = speed_tar;
-    speed_tar_3 = -speed_tar;
-    speed_tar_4 = speed_tar;
-}
-
-void car_diagonal(){
-    speed_tar_1 = speed_tar;
-    speed_tar_2 = 0;
-    speed_tar_3 = speed_tar;
-    speed_tar_4 = 0;
-}
-
-void car_turnround(){
-    speed_tar_1 = speed_tar;
-    speed_tar_2 = speed_tar;
-    speed_tar_3 = -speed_tar;
-    speed_tar_4 = -speed_tar;
-}
-
-void car_anticlockwise() {
-    speed_tar_1 = -speed_tar;
-    speed_tar_2 = -speed_tar;
-    speed_tar_3 = speed_tar;
-    speed_tar_4 = speed_tar;
-}
-
-void car_concerning(){
-    speed_tar_1 = speed_tar;
-    speed_tar_2 = speed_tar;
-    speed_tar_3 = 0;
-    speed_tar_4 = 0;
-}
 
 void car_stop(){
     speed_tar_1 = 0;
     speed_tar_2 = 0;
-    speed_tar_3 = 0;
-    speed_tar_4 = 0;
 }
 
 /**
@@ -246,13 +174,9 @@ int limit_pwm(int pwm){
 void pid_calculate(void){
     duty1 = position_pid1(RC_encoder1,speed_tar_1);
     duty2 = position_pid2(RC_encoder2,speed_tar_2);
-    duty3 = position_pid3(RC_encoder3,speed_tar_3);
-    duty4 = position_pid4(RC_encoder4,speed_tar_4);
 
     duty1 = limit_pwm(duty1);
     duty2 = limit_pwm(duty2);
-    duty3 = limit_pwm(duty3);
-    duty4 = limit_pwm(duty4);
 }
 
 
@@ -263,8 +187,6 @@ void motor_control(bool run)
     }else{
         duty1 = 0;
         duty2 = 0;
-        duty3 = 0;
-        duty4 = 0;
     }
 
     if(duty1>=0){
@@ -282,20 +204,5 @@ void motor_control(bool run)
         pwm_duty(PWM_2,-duty2);
     }
 
-    if(duty3>=0){
-        gpio_set(DIR_3,0);
-        pwm_duty(PWM_3,duty3);
-    } else {
-        gpio_set(DIR_3,1);
-        pwm_duty(PWM_3,-duty3);
-    }
-
-    if(duty4>=0){
-        gpio_set(DIR_4,1);
-        pwm_duty(PWM_4,duty4);
-    } else {
-        gpio_set(DIR_4,0);
-        pwm_duty(PWM_4,-duty4);
-    }
 }
 
