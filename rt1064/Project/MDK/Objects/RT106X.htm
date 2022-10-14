@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\RT106X.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\RT106X.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6160001: Last Updated: Fri Oct 14 15:23:27 2022
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6160001: Last Updated: Fri Oct 14 17:22:51 2022
 <BR><P>
 <H3>Maximum Stack Usage =        864 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -933,8 +933,8 @@ Global Symbols
 <P><STRONG><a name="[105]"></a>__aeabi_uldivmod</STRONG> (Thumb, 98 bytes, Stack size 40 bytes, uldiv.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = __aeabi_uldivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LPSPI_MasterInit
 <LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_SetupPwm
@@ -1057,8 +1057,8 @@ Global Symbols
 <P><STRONG><a name="[10e]"></a>__aeabi_d2lz</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, dfixl.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __aeabi_d2lz
 </UL>
-<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StrFormatPrintf
 </UL>
@@ -1101,9 +1101,9 @@ Global Symbols
 <P><STRONG><a name="[10d]"></a>_double_epilogue</STRONG> (Thumb, 156 bytes, Stack size 32 bytes, depilogue.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _double_epilogue &rArr; _double_round
 </UL>
-<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
 <LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_l2d
 <LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
@@ -1150,8 +1150,8 @@ Global Symbols
 <P><STRONG><a name="[22f]"></a>scalbn</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, dscalb.o(.text), UNUSED)
 
 <P><STRONG><a name="[116]"></a>__aeabi_d2ulz</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, dfixul.o(.text), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<BR><BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[211]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 </UL>
@@ -2571,8 +2571,8 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinInit
 <LI><a href="#[195]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;iomuxc_pinconf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smotor_init
-<LI><a href="#[1bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor_init
+<BR>[Called By]<UL><LI><a href="#[1c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smotor_init
+<LI><a href="#[1c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor_init
 <LI><a href="#[17e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;buzzer_init
 <LI><a href="#[176]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;button_init
 </UL>
@@ -2817,17 +2817,17 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> cmd.o(FSymTab)
 </UL>
-<P><STRONG><a name="[1be]"></a>$Super$$main</STRONG> (Thumb, 380 bytes, Stack size 0 bytes, main.o(.text.main))
+<P><STRONG><a name="[1be]"></a>$Super$$main</STRONG> (Thumb, 388 bytes, Stack size 0 bytes, main.o(.text.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 736<LI>Call Chain = $Super$$main &rArr; smotor_init &rArr; pwm_init &rArr; PWM_SetupPwm &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_init
 <LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
 <LI><a href="#[1b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;icm20602_init_spi
-<LI><a href="#[1c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_pit_init
-<LI><a href="#[1c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smotor_init
-<LI><a href="#[1c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
-<LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;openart_mini
-<LI><a href="#[1bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor_init
+<LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_pit_init
+<LI><a href="#[1c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smotor_init
+<LI><a href="#[1bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
+<LI><a href="#[1c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;openart_mini
+<LI><a href="#[1c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor_init
 <LI><a href="#[1b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gyroOffset_init
 <LI><a href="#[1ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;flash_param_load
 <LI><a href="#[1ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;flash_param_init
@@ -2858,7 +2858,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer1_pit_entry
 </UL>
 
-<P><STRONG><a name="[1bf]"></a>motor_init</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, motor.o(.text.motor_init))
+<P><STRONG><a name="[1c0]"></a>motor_init</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, motor.o(.text.motor_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 736<LI>Call Chain = motor_init &rArr; pwm_init &rArr; PWM_SetupPwm &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pwm_init
@@ -2912,7 +2912,7 @@ Global Symbols
 <P><STRONG><a name="[ea]"></a>openart1_uart1_callback</STRONG> (Thumb, 110 bytes, Stack size 0 bytes, openart_mini.o(.text.openart1_uart1_callback))
 <BR>[Address Reference Count : 1]<UL><LI> openart_mini.o(.text.openart_mini)
 </UL>
-<P><STRONG><a name="[1c2]"></a>openart_mini</STRONG> (Thumb, 150 bytes, Stack size 32 bytes, openart_mini.o(.text.openart_mini))
+<P><STRONG><a name="[1c3]"></a>openart_mini</STRONG> (Thumb, 150 bytes, Stack size 32 bytes, openart_mini.o(.text.openart_mini))
 <BR><BR>[Stack]<UL><LI>Max Depth = 704<LI>Call Chain = openart_mini &rArr; uart_init &rArr; LPUART_Init &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_set_handle
@@ -2946,8 +2946,8 @@ Global Symbols
 <LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWM_Deinit
 <LI><a href="#[1c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pwm_iomuxc
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smotor_init
-<LI><a href="#[1bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor_init
+<BR>[Called By]<UL><LI><a href="#[1c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smotor_init
+<LI><a href="#[1c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor_init
 </UL>
 
 <P><STRONG><a name="[1c9]"></a>pwm_iomuxc</STRONG> (Thumb, 642 bytes, Stack size 0 bytes, zf_pwm.o(.text.pwm_iomuxc))
@@ -3628,7 +3628,7 @@ Global Symbols
 <LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;finsh_system_init
 </UL>
 
-<P><STRONG><a name="[1c3]"></a>rt_thread_delay</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, thread.o(.text.rt_thread_delay))
+<P><STRONG><a name="[1bf]"></a>rt_thread_delay</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, thread.o(.text.rt_thread_delay))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = rt_thread_delay &rArr; rt_thread_sleep &rArr; rt_thread_suspend &rArr; rt_timer_stop &rArr; rt_object_get_type &rArr; rt_assert_handler &rArr; rt_kprintf &rArr; rt_vsnprintf &rArr; print_number
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_sleep
@@ -3732,7 +3732,7 @@ Global Symbols
 <LI><a href="#[17a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_start
 </UL>
 <BR>[Called By]<UL><LI><a href="#[17d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_mdelay
-<LI><a href="#[1c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
+<LI><a href="#[1bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
 </UL>
 
 <P><STRONG><a name="[181]"></a>rt_thread_startup</STRONG> (Thumb, 152 bytes, Stack size 8 bytes, thread.o(.text.rt_thread_startup))
@@ -3828,7 +3828,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_allocate
 </UL>
-<BR>[Called By]<UL><LI><a href="#[1c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_pit_init
+<BR>[Called By]<UL><LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_pit_init
 <LI><a href="#[176]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;button_init
 </UL>
 
@@ -3864,7 +3864,7 @@ Global Symbols
 <LI><a href="#[1bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
 </UL>
 <BR>[Called By]<UL><LI><a href="#[17b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_recv
-<LI><a href="#[1c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_pit_init
+<LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_pit_init
 <LI><a href="#[176]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;button_init
 <LI><a href="#[1e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_take
 <LI><a href="#[1e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send_wait
@@ -3923,7 +3923,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
 </UL>
 
-<P><STRONG><a name="[1c0]"></a>smotor_init</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, smotor.o(.text.smotor_init))
+<P><STRONG><a name="[1c1]"></a>smotor_init</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, smotor.o(.text.smotor_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 736<LI>Call Chain = smotor_init &rArr; pwm_init &rArr; PWM_SetupPwm &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pwm_init
@@ -3984,7 +3984,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> timer_pit.o(.text.timer_pit_init)
 </UL>
-<P><STRONG><a name="[1c1]"></a>timer_pit_init</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, timer_pit.o(.text.timer_pit_init))
+<P><STRONG><a name="[1c2]"></a>timer_pit_init</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, timer_pit.o(.text.timer_pit_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 352<LI>Call Chain = timer_pit_init &rArr; rt_timer_create &rArr; rt_object_allocate &rArr; rt_malloc &rArr; rt_memheap_alloc &rArr; rt_sem_take &rArr; rt_thread_suspend &rArr; rt_timer_stop &rArr; rt_object_get_type &rArr; rt_assert_handler &rArr; rt_kprintf &rArr; rt_vsnprintf &rArr; print_number
 </UL>
 <BR>[Calls]<UL><LI><a href="#[17a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_start
@@ -4003,7 +4003,7 @@ Global Symbols
 <LI><a href="#[1fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_iomuxc
 </UL>
 <BR>[Called By]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;board_init
-<LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;openart_mini
+<LI><a href="#[1c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;openart_mini
 <LI><a href="#[1be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
 </UL>
 
@@ -4030,7 +4030,7 @@ Global Symbols
 <LI><a href="#[200]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LPUART_DisableInterrupts
 </UL>
 <BR>[Called By]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;board_init
-<LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;openart_mini
+<LI><a href="#[1c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;openart_mini
 </UL>
 
 <P><STRONG><a name="[16f]"></a>uart_set_handle</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, zf_uart.o(.text.uart_set_handle))
@@ -4039,7 +4039,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LPUART_TransferCreateHandle
 </UL>
 <BR>[Called By]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;board_init
-<LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;openart_mini
+<LI><a href="#[1c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;openart_mini
 </UL>
 
 <P><STRONG><a name="[f6]"></a>version</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, cmd.o(.text.version))
