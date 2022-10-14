@@ -16,7 +16,7 @@ threshold = (220, 255)
 sensor.skip_frames(time = 2000)
 clock = time.clock()
 
-ROI1 = (0,180,320,50)
+ROI1 = (0,120,320,120)
 
 GRAYSCALE_THRESHOLD = [(0, 80)]
 
@@ -25,13 +25,12 @@ while(True):
     clock.tick()
     img = sensor.snapshot()
     img.binary([threshold])
-    blobs = img.find_blobs(GRAYSCALE_THRESHOLD,roi=ROI1,x_stride=20,y_stride=2, merge=True)
+    blobs = img.find_blobs(GRAYSCALE_THRESHOLD,roi=ROI1 ,pixels_threshold=1000)
     for b in blobs :
-        img.draw_rectangle(b.rect(),color=100)
-    largest_blob = 0
-    most_pixels = 0
-    img.draw_rectangle(ROI1)
-    print(clock.fps())
+        if b.w()>250:
+            img.draw_rectangle(b.rect(),color=100)
+            img.draw_cross(b.cx(),b.cy(),size=10,color=255)
+            print(b.cx())
     #image.binary(thresholds, invert=False)此函数将在thresholds内的
     #图像部分的全部像素变为1白，将在阈值外的部分全部像素变为0黑。invert将图像
     #的0 1（黑 白）进行反转，默认为false不反转。
