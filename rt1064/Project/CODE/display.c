@@ -34,6 +34,7 @@ void GUI_Motor(){
 }
 
 void GUI_icm20602(){
+
 }
 
 
@@ -112,6 +113,7 @@ void display_page(){
     }
     switch(Page_Number){
         case InfoPage:
+            ips200_showstr(0,0,"Info:");
             GUI_icm20602();
             break;
         case ConfigPage:

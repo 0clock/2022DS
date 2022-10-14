@@ -56,7 +56,7 @@ void button_entry(void *parameter)
     if(key1_status && !key1_last_status)    
     {
         if(Page_Number==InfoPage){
-            speed_tar=+15;//小车走起
+            speed_tar+=10;//小车走起
         }
         if(Page_Number==ConfigPage){
             switch (config_action) {
@@ -114,7 +114,7 @@ void button_entry(void *parameter)
             Gui_Page_Active=true;
         }
         if(Page_Number==InfoPage){
-
+            speed_tar-=10;
         }
         if(Page_Number==CameraPage){
             pictureD+=0.001;

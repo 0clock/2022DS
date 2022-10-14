@@ -376,3 +376,7 @@ void carmove_mileage(float x,float y){
     }
     reset_mileage();
 }
+
+void back_garage(){
+
+}
