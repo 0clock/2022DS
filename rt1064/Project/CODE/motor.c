@@ -11,7 +11,7 @@
 int32 duty1=0,duty2=0;//µç»úPWMÖµ
 
 
-float pictureP=10,pictureI=0,pictureD=0.5;
+float pictureP=7,pictureI=0,pictureD=-1;
   
 
 
