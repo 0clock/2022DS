@@ -10,6 +10,7 @@
 #include "carmove.h"
 #include "openart_mini.h"
 #include "smotor.h"
+#include "task.h"
 
 enum Gui_Page Page_Number=InfoPage;
 bool Gui_Page_Active=true;
@@ -28,7 +29,6 @@ void gui_info(){
     ips200_showstr(0,1,"Encoder:");
     ips200_showint16(5,2,RC_encoder1);
     ips200_showint16(5,3,RC_encoder2);
-    ips200_showstr(160,2,"Speed");
 
     ips200_showstr(0,6,"Angel:");
     ips200_showfloat(5,7,Car.Angel,3,4);
@@ -38,6 +38,9 @@ void gui_info(){
 
     ips200_showstr(0,12,"Smotor:");
     ips200_showint16(5,13,smotor_duty);
+
+    ips200_showstr(160,1,"T_times:");
+    ips200_showint8(165,2,t_times);
 }
 
 

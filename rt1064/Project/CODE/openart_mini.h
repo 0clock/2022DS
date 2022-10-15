@@ -44,6 +44,12 @@ enum openart_mode{
     get_picture
 };
 
+enum receve_model{
+    road_loaction,
+    findt7
+};
+
+
 extern enum picture_type picture_type;
 extern enum picture_big_type pictureBigType;
 extern enum openart_mode openartMode;
@@ -52,7 +58,10 @@ extern bool isDetection;
 
 extern int32 picture_location[2];
 extern uint8 edge_rotation[2];
-extern uint8 road_location;
+extern int road_location;
+extern uint8 t_location;
+
+extern bool findT;
 
 extern openart_param_t openart;
 

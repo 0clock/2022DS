@@ -382,6 +382,8 @@ void car_xunxian(){
     smotor_duty=picture_xerror_pid(road_location,90);
     if(road_location!=0){
         smotor1_control(smotor_duty);
+    }else{
+        smotor1_control(0);
     }
 }
 

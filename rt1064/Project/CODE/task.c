@@ -4,13 +4,32 @@
 #include "task.h"
 #include "carmove.h"
 #include "motor.h"
+#include "openart_mini.h"
+
+uint8_t t_times=0;
+
+void find_t_times(){
+    static bool temp=0;
+
+    if(findT!=temp&&findT){
+        t_times++;
+    }
+    temp=findT;
+    rt_thread_delay(50);
+}
 
 void task_entry(){
+    bool temp=false;
     car_go(5,5);
     while(1){
         car_xunxian();
+        if(t_times>=4){
+            break;
+        }
     }
-    //back_garage();
+    back_garage();
+
+    car_xunxian();
 }
 void task_init(void)
 {

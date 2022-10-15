@@ -19,11 +19,18 @@ uint8 openartBuffer=0;
 enum picture_type picture_type;
 enum picture_big_type pictureBigType=animal;
 enum openart_mode openartMode=get_map;
+enum receve_model receve_Model=road_loaction;
 bool havePicture;
 bool isDetection=false;
 uint8 nowpointmp=0;
 uint8 edge_rotation[2]={0};
-uint8 road_location=0;
+int road_location=0;
+uint8 t_location=0;
+
+bool findT=false;
+
+
+
 
 void openart_uart1_callback(LPUART_Type *base, lpuart_handle_t *handle, status_t status, void *userData)
 {
@@ -32,10 +39,28 @@ void openart_uart1_callback(LPUART_Type *base, lpuart_handle_t *handle, status_t
     if(kStatus_LPUART_RxIdle == status) {
         if(openart_rx_buffer==0xFF) {
             rx_num = 0;
+            receve_Model=road_loaction;
             rx_num++;
-        }else{
-                road_location=openart_rx_buffer;
+        }else if(openart_rx_buffer==0xDD){
+            rx_num = 0;
+            receve_Model=findT;
+           findT=true;
+           rx_num++;
+        }else if(openart_rx_buffer==0xEE){
+            rx_num = 0;
+            t_location=0;
+            findT=false;
+        }
+
+        if(receve_Model==road_loaction&&rx_num>1){
+            road_location=openart_rx_buffer;
+            if(road_location<0){
+                road_location=-road_loaction;
             }
+        }else if(receve_Model==findT&&rx_num>1){
+            t_location=openart_rx_buffer;
+        }
+        rx_num+=1;
     }
 
     handle->rxDataSize = openart_receivexfer.dataSize;  //还原缓冲区长度
