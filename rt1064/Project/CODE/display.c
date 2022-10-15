@@ -41,6 +41,12 @@ void gui_info(){
 
     ips200_showstr(160,1,"T_times:");
     ips200_showint8(165,2,t_times);
+
+    ips200_showstr(160,4,"Mileage:");
+    ips200_showint16(165,5,Car.MileageY);
+
+    ips200_showstr(160,7,"T_locate:");
+    ips200_showint16(165,8,t_location);
 }
 
 

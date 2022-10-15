@@ -13,7 +13,9 @@ void car_omnimove(void);
 void car_return(void);
 void reset_mileage(void);
 void back_garage(void);
+void cefang();
 void carmove_mileage(float x,float y);
 void car_xunxian();
+void t_locate_right();
 
 #endif //MY_SMARTCAR_RTT_CARMOVE_H

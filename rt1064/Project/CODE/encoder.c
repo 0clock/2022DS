@@ -30,6 +30,7 @@ void encoder_init(void)
 }
 
 void omni_mileage(){
+    Car.MileageY+=encoder1+encoder2;
 }
 
 void encoder_get(void)

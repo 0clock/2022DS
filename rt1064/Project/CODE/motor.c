@@ -12,9 +12,9 @@ int32 duty1=0,duty2=0;//电机PWM值
 
 
 float pictureP=7,pictureI=0,pictureD=-1;
-  
 
 
+float ypictureP=0.07,ypictureI=0,ypictureD=0;
 
 //积分法计算位移参数
 
@@ -128,12 +128,12 @@ int picture_yerror_pid(int16 now_y,int16 target_y){
     static float Bias,Speed_Y,Integral_bias,Last_Bias;
     Bias=(float)(target_y - now_y);
     Integral_bias+=Bias;
-    Speed_Y=pictureP*Bias+pictureI*Integral_bias+pictureD*(Bias-Last_Bias);
+    Speed_Y=ypictureP*Bias+ypictureI*Integral_bias+ypictureD*(Bias-Last_Bias);
     Last_Bias=Bias;
-    if(Speed_Y>=10)
-        Speed_Y=10;
-    if(Speed_Y<=-10)
-        Speed_Y=-10;
+    if(Speed_Y>=5)
+        Speed_Y=5;
+    if(Speed_Y<=-5)
+        Speed_Y=-5;
     return (int)Speed_Y;
 }
 

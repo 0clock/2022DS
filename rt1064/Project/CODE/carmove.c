@@ -379,7 +379,7 @@ void carmove_mileage(float x,float y){
 }
 
 void car_xunxian(){
-    smotor_duty=picture_xerror_pid(road_location,90);
+    smotor_duty=picture_xerror_pid(road_location,98);
     if(road_location!=0){
         smotor1_control(smotor_duty);
     }else{
@@ -389,11 +389,13 @@ void car_xunxian(){
 
 void back_garage(){
     float angeltemp;
+    car_go(-4,-4);
+    rt_thread_delay(390);
     smotor1_control(-400);
     angeltemp=Car.Angel;
     while(1){
         car_go(-3,-3);
-        if(Car.Angel-angeltemp>=85){
+        if(Car.Angel-angeltemp>=83){
             rt_mb_send(buzzer_mailbox, 100);
             smotor1_control(0);
             break;
@@ -408,15 +410,83 @@ void back_garage(){
     rt_mb_send(buzzer_mailbox, 100);
     car_stop();
     angeltemp=Car.Angel;
+    //³ö¿â
     car_go(3,3);
     rt_thread_delay(500);
     smotor1_control(-400);
     while (1){
-        if(angeltemp-abs(Car.Angel)>=20){
+        if(angeltemp-Car.Angel>=88){
+            smotor1_control(0);
+            break;
+        }
+        rt_thread_delay(10);
+    }
+    rt_thread_delay(1000);
+    car_stop();
+}
+
+void cefang(){
+    float temp;
+    car_go(3,3);
+    rt_thread_delay(900);
+    car_go(-6,-6);
+    smotor1_control(-350);
+    temp=Car.Angel;
+    while(1){
+        rt_thread_delay(1);
+        if(Car.Angel-temp>=40){
+            car_go(-7,-7);
+            smotor1_control(400);
+            break;
+        }
+    }
+    temp=Car.Angel;
+    while(1){
+        rt_thread_delay(1);
+        if(temp-Car.Angel>=38){
             smotor1_control(0);
             break;
         }
     }
+    car_go(-3,-3);
+    rt_thread_delay(100);
+    car_stop();
+    rt_thread_delay(5000);
+    temp=Car.Angel;
+    //³ö¿â
+    car_go(3,3);
+    smotor1_control(400);
+    while(1){
+        rt_thread_delay(1);
+        if (Car.Angel- abs(temp)>=45){
+            smotor1_control(-400);
+            break;
+        }
+    }
+    temp=Car.Angel;
+    while(1){
+        rt_thread_delay(1);
+            if(Car.Angel<4){
+            smotor1_control(0);
+            break;
+        }
+    }
+    car_go(3,3);
+    car_xunxian();
     rt_thread_delay(1000);
     car_stop();
+}
+
+void t_locate_right(){//160
+    int duty;
+    if(t_location!=0) {
+        while (1) {
+            duty = picture_yerror_pid(t_location, 160);
+            car_go(duty, duty);
+            rt_thread_delay(1);
+            if (duty == 0) {
+                break;
+            }
+        }
+    }
 }
