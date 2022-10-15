@@ -17,7 +17,8 @@ threshold = (220, 255)
 sensor.skip_frames(time = 2000)
 clock = time.clock()
 
-ROI1 = (0,120,320,120)
+ROI1 = (0,120,160,120)
+ROI2 = (140,120,40,80)
 uart = UART(1, baudrate=115200)
 
 
@@ -28,13 +29,24 @@ while(True):
     clock.tick()
     img = sensor.snapshot()
     img.binary([threshold])
+    img.draw_rectangle(ROI2,color=200)
     blobs = img.find_blobs(GRAYSCALE_THRESHOLD,roi=ROI1 ,pixels_threshold=1000)
     for b in blobs :
-        if b.w()>250:
+        if b.w()>100:
             img.draw_rectangle(b.rect(),color=100)
             img.draw_cross(b.cx(),b.cy(),size=10,color=255)
             print(b.cy())
-            uart_array = bytearray([0XFF,125,int((b.cy()-100))])
+            uart_array = bytearray([0XFF,int((b.cy()-100))])
+            uart.write(uart_array)
+    blobs = img.find_blobs(GRAYSCALE_THRESHOLD,roi=ROI2,pixels_threshould=1000)
+    for b in blobs :
+        if b.h()>45:
+            img.draw_rectangle(b.rect(),color=100)
+            img.draw_cross(b.cx(),b.cy(),size=10,color=100)
+            uart_array = bytearray([0XDD,int((b.cx()-100))])
+            uart.write(uart_array)
+        else:
+            uart_array = bytearray([0XEE])
             uart.write(uart_array)
     #image.binary(thresholds, invert=False)此函数将在thresholds内的
     #图像部分的全部像素变为1白，将在阈值外的部分全部像素变为0黑。invert将图像
