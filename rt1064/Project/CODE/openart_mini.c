@@ -43,7 +43,7 @@ void openart_uart1_callback(LPUART_Type *base, lpuart_handle_t *handle, status_t
             rx_num++;
         }else if(openart_rx_buffer==0xDD){
             rx_num = 0;
-            receve_Model=findT;
+            receve_Model=isfindT;
            findT=true;
            rx_num++;
         }else if(openart_rx_buffer==0xEE){

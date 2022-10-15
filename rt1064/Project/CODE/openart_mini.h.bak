@@ -46,7 +46,7 @@ enum openart_mode{
 
 enum receve_model{
     road_loaction,
-    isfindT
+    findt
 };
 
 
@@ -58,7 +58,7 @@ extern bool isDetection;
 
 extern int32 picture_location[2];
 extern uint8 edge_rotation[2];
-extern int road_location;
+extern uint8 road_location;
 extern uint8 t_location;
 
 extern bool findT;
