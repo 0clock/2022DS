@@ -8,6 +8,8 @@
 
 uint8_t t_times=0;
 
+
+
 void find_t_times(){
     static bool temp=0;
 
@@ -18,9 +20,7 @@ void find_t_times(){
     rt_thread_delay(10);
 }
 
-void task_entry(){
-
-
+void task_all(){
     car_go(5,5);
     while(1){
         car_xunxian();
@@ -42,10 +42,44 @@ void task_entry(){
 
     go_angel(-3,5,400);
 
-
-    car_go(-15,-15);
-    rt_thread_delay(2500);
     car_stop();
+}
+
+void only_garage(){
+    car_go(5,5);
+    while(1){
+        car_xunxian();
+        if(t_times>=4){
+            break;
+        }
+    }
+    back_garage();
+    t_times=0;
+    go_angel(-3,5,400);
+
+    car_stop();
+}
+
+
+void only_cefang(){
+    t_times=0;
+    while(1){
+        car_go(5,5);
+        car_xunxian();
+        if(t_times>=3){
+            break;
+        }
+    }
+    cefang();
+    car_xunxian();
+    go_angel(-3,5,400);
+
+    car_stop();
+}
+
+
+void task_entry(){
+    task_all();
 }
 void task_init(void)
 {

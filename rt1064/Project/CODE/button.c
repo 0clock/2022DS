@@ -15,6 +15,8 @@
 #define KEY_3   C26	// 定义主板上按键对应引脚
 #define KEY_4   C4	// 定义主板上按键对应引脚
 
+#define SWI1
+
 enum Config_Action config_action;
 extern float pictureP,pictureI,pictureD;
 
@@ -60,13 +62,13 @@ void button_entry(void *parameter)
         }
         if(Page_Number==ConfigPage){
             switch (config_action) {
-                case MileageX : MileageKx+=0.0002f;break;
-                case MileageY : MileageKy+=0.0002f;break;
-                case AngelP : Angel_KP+=0.1f;break;
-                case AngelI: Angel_KI+=0.1f;break;
-                case AngelD:Angel_KD+=0.1f;break;
+                case MileageX : garage_a+=10;break;
+                case MileageY : garage_b+=10;break;
+                case AngelP : garage_c+=10;break;
+                case AngelI: cefang_a+=10;break;
+                case AngelD:cefang_b+=1;break;
                 case MotorP:Position_KP+=1;break;
-                case MotorI:Position_KI+=1;break;
+                case MotorI:cefang_c+=1;break;
                 case MotorD:Position_KD+=1;break;
                 default:break;
             }
@@ -87,13 +89,13 @@ void button_entry(void *parameter)
         }
         if(Page_Number==ConfigPage){
             switch (config_action) {
-                case MileageX : MileageKx-=0.0002f;break;
-                case MileageY : MileageKy-=0.0002f;break;
-                case AngelP : Angel_KP-=0.1f;break;
-                case AngelI: Angel_KI-=0.1f;break;
-                case AngelD:Angel_KD-=0.1f;break;
+                case MileageX : garage_a-=10;break;
+                case MileageY : garage_b-=10;break;
+                case AngelP : garage_c-=10;break;
+                case AngelI: cefang_a-=10;break;
+                case AngelD:cefang_b-=1;break;
                 case MotorP:Position_KP-=1;break;
-                case MotorI:Position_KI-=1;break;
+                case MotorI:cefang_c-=1;break;
                 case MotorD:Position_KD-=1;break;
                 default:break;
             }
@@ -147,7 +149,6 @@ void button_init(void)
 	gpio_init(KEY_4, GPI, GPIO_HIGH, GPIO_PIN_CONFIG);
 
 
-    
     key1_sem = rt_sem_create("key1", 0, RT_IPC_FLAG_FIFO);		//创建按键的信号量，当按键按下就释放信号量，在需要使用按键的地方获取信号量即可
     key2_sem = rt_sem_create("key2", 0, RT_IPC_FLAG_FIFO);  
     key3_sem = rt_sem_create("key3", 0, RT_IPC_FLAG_FIFO);  

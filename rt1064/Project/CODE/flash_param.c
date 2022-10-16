@@ -39,10 +39,20 @@ __attribute__((section(".ARM.__at_0x2020003C"))) float Angel_KD = 1.5f;
 __attribute__((section(".ARM.__at_0x20200040")))float Angel_KI = 0;
 
 //记录PID系数
-__attribute__((section(".ARM.__at_0x20200044"))) float Position_KP =200;
-__attribute__((section(".ARM.__at_0x20200048"))) float Position_KI =20;
-__attribute__((section(".ARM.__at_0x2020004C"))) float Position_KD =5;
+__attribute__((section(".ARM.__at_0x20200044"))) float Position_KP =100;
+__attribute__((section(".ARM.__at_0x20200048"))) float Position_KI =10;
+__attribute__((section(".ARM.__at_0x2020004C"))) float Position_KD =7;
 
+
+//倒库
+__attribute__((section(".ARM.__at_0x20200050"))) int garage_a =210;
+__attribute__((section(".ARM.__at_0x20200054"))) int garage_b=600;
+__attribute__((section(".ARM.__at_0x2020005c"))) int garage_c=350;
+
+//cefang
+__attribute__((section(".ARM.__at_0x20200060"))) int cefang_a=600;
+__attribute__((section(".ARM.__at_0x20200064"))) int cefang_b=53;
+__attribute__((section(".ARM.__at_0x202000cC"))) int cefang_c=100;
 
 
 // 最后4个字节放校验值

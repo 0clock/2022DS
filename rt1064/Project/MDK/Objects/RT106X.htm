@@ -3,9 +3,9 @@
 <title>Static Call Graph - [.\Objects\RT106X.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\RT106X.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6160001: Last Updated: Sun Oct 16 17:07:07 2022
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6160001: Last Updated: Sun Oct 16 19:13:41 2022
 <BR><P>
-<H3>Maximum Stack Usage =        864 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =        872 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
 button_entry &rArr; flash_param_write &rArr; flash_page_program &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 <P>
@@ -2280,11 +2280,11 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer1_pit_entry
 </UL>
 
-<P><STRONG><a name="[16c]"></a>back_garage</STRONG> (Thumb, 168 bytes, Stack size 8 bytes, carmove.o(.text.back_garage))
+<P><STRONG><a name="[16c]"></a>back_garage</STRONG> (Thumb, 188 bytes, Stack size 8 bytes, carmove.o(.text.back_garage))
 <BR><BR>[Stack]<UL><LI>Max Depth = 640<LI>Call Chain = back_garage &rArr; go_angel &rArr; smotor1_control &rArr; pwm_duty &rArr; PWM_UpdatePwmDutycycle &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
-<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
+<BR>[Calls]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
+<LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
 <LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;go_angel
 <LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;car_stop
 <LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;car_go
@@ -2306,10 +2306,10 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[1db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_board_init
 </UL>
 
-<P><STRONG><a name="[e5]"></a>button_entry</STRONG> (Thumb, 744 bytes, Stack size 16 bytes, button.o(.text.button_entry))
-<BR><BR>[Stack]<UL><LI>Max Depth = 864<LI>Call Chain = button_entry &rArr; flash_param_write &rArr; flash_page_program &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
+<P><STRONG><a name="[e5]"></a>button_entry</STRONG> (Thumb, 816 bytes, Stack size 24 bytes, button.o(.text.button_entry))
+<BR><BR>[Stack]<UL><LI>Max Depth = 872<LI>Call Chain = button_entry &rArr; flash_param_write &rArr; flash_page_program &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
+<BR>[Calls]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
 <LI><a href="#[179]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_putstr
 <LI><a href="#[177]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_get
 <LI><a href="#[178]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;flash_param_write
@@ -2371,11 +2371,11 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_entry
 </UL>
 
-<P><STRONG><a name="[18a]"></a>cefang</STRONG> (Thumb, 162 bytes, Stack size 8 bytes, carmove.o(.text.cefang))
+<P><STRONG><a name="[18a]"></a>cefang</STRONG> (Thumb, 184 bytes, Stack size 8 bytes, carmove.o(.text.cefang))
 <BR><BR>[Stack]<UL><LI>Max Depth = 640<LI>Call Chain = cefang &rArr; go_angel &rArr; smotor1_control &rArr; pwm_duty &rArr; PWM_UpdatePwmDutycycle &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
-<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
+<BR>[Calls]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
+<LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
 <LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;go_angel
 <LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;car_stop
 <LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;car_go
@@ -2397,45 +2397,46 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> msh.o(FSymTab)
 </UL>
-<P><STRONG><a name="[18c]"></a>config_page</STRONG> (Thumb, 424 bytes, Stack size 8 bytes, display.o(.text.config_page))
+<P><STRONG><a name="[18c]"></a>config_page</STRONG> (Thumb, 328 bytes, Stack size 8 bytes, display.o(.text.config_page))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = config_page &rArr; ips200_showfloat &rArr; ips200_showchar &rArr; ips200_address_set &rArr; ips200_wr_data16
 </UL>
 <BR>[Calls]<UL><LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showstr
-<LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showfloat
+<LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showint16
+<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showfloat
 </UL>
-<BR>[Called By]<UL><LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
+<BR>[Called By]<UL><LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
 </UL>
 
 <P><STRONG><a name="[e7]"></a>display_entry</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, display.o(.text.display_entry))
 <BR><BR>[Stack]<UL><LI>Max Depth = 184 + In Cycle
 <LI>Call Chain = display_entry &rArr;  display_entry (Cycle)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
+<BR>[Calls]<UL><LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
 <LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_entry
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_entry
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> display.o(.text.display_init)
 </UL>
-<P><STRONG><a name="[190]"></a>display_init</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, display.o(.text.display_init))
+<P><STRONG><a name="[191]"></a>display_init</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, display.o(.text.display_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 656<LI>Call Chain = display_init &rArr; ips200_init &rArr; fast_gpio_init &rArr; iomuxc_pinconf &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
-<LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_clear
+<BR>[Calls]<UL><LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
+<LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_clear
 <LI><a href="#[186]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_startup
 <LI><a href="#[185]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_create
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
 </UL>
 
-<P><STRONG><a name="[18f]"></a>display_page</STRONG> (Thumb, 256 bytes, Stack size 16 bytes, display.o(.text.display_page))
+<P><STRONG><a name="[190]"></a>display_page</STRONG> (Thumb, 256 bytes, Stack size 16 bytes, display.o(.text.display_page))
 <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = display_page &rArr; gui_info &rArr; ips200_showfloat &rArr; ips200_showchar &rArr; ips200_address_set &rArr; ips200_wr_data16
 </UL>
 <BR>[Calls]<UL><LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showstr
 <LI><a href="#[195]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showint8
-<LI><a href="#[194]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showint16
-<LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_clear
-<LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gui_info
+<LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showint16
+<LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_clear
+<LI><a href="#[194]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gui_info
 <LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_page
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_entry
@@ -2471,7 +2472,7 @@ Global Symbols
 <P><STRONG><a name="[e4]"></a>example_uart1_callback</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, board.o(.text.example_uart1_callback))
 <BR><BR>[Stack]<UL><LI>Max Depth = 272<LI>Call Chain = example_uart1_callback &rArr; rt_mb_send &rArr; rt_mb_send_wait &rArr; rt_thread_suspend &rArr; rt_timer_stop &rArr; rt_object_get_type &rArr; rt_assert_handler &rArr; rt_kprintf &rArr; rt_vsnprintf &rArr; print_number
 </UL>
-<BR>[Calls]<UL><LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
+<BR>[Calls]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> board.o(.text.board_init)
 </UL>
@@ -2482,20 +2483,20 @@ Global Symbols
 <LI><a href="#[1a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinSetInterruptConfig
 <LI><a href="#[19f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;iomuxc_pinconf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
+<BR>[Called By]<UL><LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
 </UL>
 
 <P><STRONG><a name="[1c0]"></a>fast_gpio_set</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, zf_gpio.o(.text.fast_gpio_set))
 <BR><BR>[Called By]<UL><LI><a href="#[1c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_wr_data16
 <LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showchar
-<LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
+<LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
 <LI><a href="#[1bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_address_set
 </UL>
 
 <P><STRONG><a name="[1a1]"></a>find_t_times</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, task.o(.text.find_t_times))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = find_t_times &rArr; rt_thread_delay &rArr; rt_thread_sleep &rArr; rt_thread_suspend &rArr; rt_timer_stop &rArr; rt_object_get_type &rArr; rt_assert_handler &rArr; rt_kprintf &rArr; rt_vsnprintf &rArr; print_number
 </UL>
-<BR>[Calls]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
+<BR>[Calls]<UL><LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
 </UL>
@@ -2615,7 +2616,7 @@ Global Symbols
 <P><STRONG><a name="[171]"></a>go_angel</STRONG> (Thumb, 232 bytes, Stack size 32 bytes, carmove.o(.text.go_angel))
 <BR><BR>[Stack]<UL><LI>Max Depth = 632<LI>Call Chain = go_angel &rArr; smotor1_control &rArr; pwm_duty &rArr; PWM_UpdatePwmDutycycle &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
+<BR>[Calls]<UL><LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
 <LI><a href="#[189]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smotor1_control
 <LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;car_stop
 <LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;car_go
@@ -2646,15 +2647,15 @@ Global Symbols
 <LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;buzzer_entry
 </UL>
 
-<P><STRONG><a name="[193]"></a>gui_info</STRONG> (Thumb, 244 bytes, Stack size 8 bytes, display.o(.text.gui_info))
+<P><STRONG><a name="[194]"></a>gui_info</STRONG> (Thumb, 244 bytes, Stack size 8 bytes, display.o(.text.gui_info))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = gui_info &rArr; ips200_showfloat &rArr; ips200_showchar &rArr; ips200_address_set &rArr; ips200_wr_data16
 </UL>
 <BR>[Calls]<UL><LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showstr
 <LI><a href="#[195]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showint8
-<LI><a href="#[194]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showint16
-<LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showfloat
+<LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showint16
+<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showfloat
 </UL>
-<BR>[Called By]<UL><LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
+<BR>[Called By]<UL><LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
 </UL>
 
 <P><STRONG><a name="[1bb]"></a>gyroOffset_init</STRONG> (Thumb, 192 bytes, Stack size 24 bytes, attitude_solution.o(.text.gyroOffset_init))
@@ -2704,21 +2705,21 @@ Global Symbols
 <LI><a href="#[1c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_wr_data16
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showchar
-<LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
-<LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_clear
+<LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
+<LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_clear
 </UL>
 
-<P><STRONG><a name="[192]"></a>ips200_clear</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, seekfree_ips200_parallel8.o(.text.ips200_clear))
+<P><STRONG><a name="[193]"></a>ips200_clear</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, seekfree_ips200_parallel8.o(.text.ips200_clear))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = ips200_clear &rArr; ips200_address_set &rArr; ips200_wr_data16
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_wr_data16
 <LI><a href="#[1bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_address_set
 </UL>
-<BR>[Called By]<UL><LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
-<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
+<BR>[Called By]<UL><LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
+<LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
 </UL>
 
-<P><STRONG><a name="[191]"></a>ips200_init</STRONG> (Thumb, 4436 bytes, Stack size 40 bytes, seekfree_ips200_parallel8.o(.text.ips200_init))
+<P><STRONG><a name="[192]"></a>ips200_init</STRONG> (Thumb, 4436 bytes, Stack size 40 bytes, seekfree_ips200_parallel8.o(.text.ips200_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 640<LI>Call Chain = ips200_init &rArr; fast_gpio_init &rArr; iomuxc_pinconf &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;systick_delay_ms
@@ -2726,7 +2727,7 @@ Global Symbols
 <LI><a href="#[19e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fast_gpio_init
 <LI><a href="#[1bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_address_set
 </UL>
-<BR>[Called By]<UL><LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
+<BR>[Called By]<UL><LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
 <LI><a href="#[1c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
 </UL>
 
@@ -2738,27 +2739,28 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showstr
 <LI><a href="#[195]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showint8
-<LI><a href="#[194]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showint16
-<LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showfloat
+<LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showint16
+<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showfloat
 </UL>
 
-<P><STRONG><a name="[18e]"></a>ips200_showfloat</STRONG> (Thumb, 324 bytes, Stack size 72 bytes, seekfree_ips200_parallel8.o(.text.ips200_showfloat))
+<P><STRONG><a name="[18f]"></a>ips200_showfloat</STRONG> (Thumb, 324 bytes, Stack size 72 bytes, seekfree_ips200_parallel8.o(.text.ips200_showfloat))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = ips200_showfloat &rArr; ips200_showchar &rArr; ips200_address_set &rArr; ips200_wr_data16
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showchar
 <LI><a href="#[1c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gui_info
+<BR>[Called By]<UL><LI><a href="#[194]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gui_info
 <LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_page
 </UL>
 
-<P><STRONG><a name="[194]"></a>ips200_showint16</STRONG> (Thumb, 292 bytes, Stack size 40 bytes, seekfree_ips200_parallel8.o(.text.ips200_showint16))
+<P><STRONG><a name="[18e]"></a>ips200_showint16</STRONG> (Thumb, 292 bytes, Stack size 40 bytes, seekfree_ips200_parallel8.o(.text.ips200_showint16))
 <BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = ips200_showint16 &rArr; ips200_showchar &rArr; ips200_address_set &rArr; ips200_wr_data16
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showchar
 </UL>
-<BR>[Called By]<UL><LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gui_info
-<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
+<BR>[Called By]<UL><LI><a href="#[194]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gui_info
+<LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
+<LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_page
 </UL>
 
 <P><STRONG><a name="[195]"></a>ips200_showint8</STRONG> (Thumb, 168 bytes, Stack size 24 bytes, seekfree_ips200_parallel8.o(.text.ips200_showint8))
@@ -2766,8 +2768,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showchar
 </UL>
-<BR>[Called By]<UL><LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gui_info
-<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
+<BR>[Called By]<UL><LI><a href="#[194]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gui_info
+<LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
 </UL>
 
 <P><STRONG><a name="[18d]"></a>ips200_showstr</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, seekfree_ips200_parallel8.o(.text.ips200_showstr))
@@ -2776,8 +2778,8 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[1c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showchar
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
-<LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gui_info
-<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
+<LI><a href="#[194]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gui_info
+<LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_page
 <LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_page
 </UL>
 
@@ -2786,7 +2788,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fast_gpio_set
 </UL>
-<BR>[Called By]<UL><LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_clear
+<BR>[Called By]<UL><LI><a href="#[193]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_clear
 <LI><a href="#[1bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_address_set
 </UL>
 
@@ -2899,12 +2901,12 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 736<LI>Call Chain = $Super$$main &rArr; smotor_init &rArr; pwm_init &rArr; PWM_SetupPwm &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[174]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_init
-<LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
+<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
 <LI><a href="#[1bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;icm20602_init_spi
 <LI><a href="#[1cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_pit_init
 <LI><a href="#[1ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_init
 <LI><a href="#[1cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;smotor_init
-<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
+<LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
 <LI><a href="#[1cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;openart_mini
 <LI><a href="#[1ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor_init
 <LI><a href="#[1bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gyroOffset_init
@@ -2912,11 +2914,11 @@ Global Symbols
 <LI><a href="#[1b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;flash_param_init
 <LI><a href="#[1a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;find_t_times
 <LI><a href="#[19c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;encoder_init
-<LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
+<LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
 <LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;buzzer_init
 <LI><a href="#[17b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;button_init
 <LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showstr
-<LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
+<LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main_thread_entry
 </UL>
@@ -3356,7 +3358,7 @@ Global Symbols
 <LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;buzzer_entry
 </UL>
 
-<P><STRONG><a name="[16e]"></a>rt_mb_send</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, ipc.o(.text.rt_mb_send))
+<P><STRONG><a name="[16f]"></a>rt_mb_send</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, ipc.o(.text.rt_mb_send))
 <BR><BR>[Stack]<UL><LI>Max Depth = 256<LI>Call Chain = rt_mb_send &rArr; rt_mb_send_wait &rArr; rt_thread_suspend &rArr; rt_timer_stop &rArr; rt_object_get_type &rArr; rt_assert_handler &rArr; rt_kprintf &rArr; rt_vsnprintf &rArr; print_number
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send_wait
@@ -3385,7 +3387,7 @@ Global Symbols
 <LI><a href="#[1c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
 <LI><a href="#[17f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_start
 </UL>
-<BR>[Called By]<UL><LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
+<BR>[Called By]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_mb_send
 </UL>
 
 <P><STRONG><a name="[1e3]"></a>rt_memheap_alloc</STRONG> (Thumb, 360 bytes, Stack size 24 bytes, memheap.o(.text.rt_memheap_alloc))
@@ -3706,20 +3708,19 @@ Global Symbols
 <LI><a href="#[167]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_thread_init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_init
-<LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
+<LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
 <LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;buzzer_init
 <LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
 <LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;finsh_system_init
 </UL>
 
-<P><STRONG><a name="[16f]"></a>rt_thread_delay</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, thread.o(.text.rt_thread_delay))
+<P><STRONG><a name="[16e]"></a>rt_thread_delay</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, thread.o(.text.rt_thread_delay))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = rt_thread_delay &rArr; rt_thread_sleep &rArr; rt_thread_suspend &rArr; rt_timer_stop &rArr; rt_object_get_type &rArr; rt_assert_handler &rArr; rt_kprintf &rArr; rt_vsnprintf &rArr; print_number
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_sleep
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;find_t_times
 <LI><a href="#[1c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;$Super$$main
-<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_entry
 <LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;go_angel
 <LI><a href="#[18a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cefang
 <LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_garage
@@ -3821,7 +3822,7 @@ Global Symbols
 <LI><a href="#[17f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_start
 </UL>
 <BR>[Called By]<UL><LI><a href="#[182]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_mdelay
-<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
+<LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
 </UL>
 
 <P><STRONG><a name="[186]"></a>rt_thread_startup</STRONG> (Thumb, 152 bytes, Stack size 8 bytes, thread.o(.text.rt_thread_startup))
@@ -3833,7 +3834,7 @@ Global Symbols
 <LI><a href="#[1d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_init
-<LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
+<LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_init
 <LI><a href="#[183]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;buzzer_init
 <LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
 <LI><a href="#[1fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_init
@@ -4069,14 +4070,13 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[182]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_mdelay
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;icm20602_init_spi
-<LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
+<LI><a href="#[192]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
 </UL>
 
-<P><STRONG><a name="[ec]"></a>task_entry</STRONG> (Thumb, 108 bytes, Stack size 8 bytes, task.o(.text.task_entry))
+<P><STRONG><a name="[ec]"></a>task_entry</STRONG> (Thumb, 88 bytes, Stack size 8 bytes, task.o(.text.task_entry))
 <BR><BR>[Stack]<UL><LI>Max Depth = 648<LI>Call Chain = task_entry &rArr; cefang &rArr; go_angel &rArr; smotor1_control &rArr; pwm_duty &rArr; PWM_UpdatePwmDutycycle &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
-<LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;go_angel
+<BR>[Calls]<UL><LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;go_angel
 <LI><a href="#[18a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cefang
 <LI><a href="#[187]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;car_xunxian
 <LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_garage
@@ -4180,7 +4180,7 @@ Global Symbols
 <P><STRONG><a name="[1c3]"></a>__2sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2sprintf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showfloat
+<BR>[Called By]<UL><LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_showfloat
 </UL>
 
 <P><STRONG><a name="[23e]"></a>__c89sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf), UNUSED)

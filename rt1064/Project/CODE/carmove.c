@@ -9,6 +9,7 @@
 #include "smotor.h"
 #include "openart_mini.h"
 #include "sendmsg.h"
+#include "flash_param.h"
 
 extern const float PI;
 extern uint16 msecond,time_second;
@@ -389,16 +390,15 @@ void car_xunxian(){
 
 void back_garage(){
     car_stop();
-    rt_mb_send(buzzer_mailbox, 500);
     rt_thread_delay(1000);
+    rt_mb_send(buzzer_mailbox, 500);
     car_go(-2,-2);
-    rt_thread_delay(210);
+    rt_thread_delay(garage_a);
     go_angel(88,-3,400);
     go_angel(90,-3,50);
 
-
     car_go(-2,-2);
-    rt_thread_delay(600);
+    rt_thread_delay(garage_b);
     car_stop();
 
     //Í£³µ
@@ -406,7 +406,7 @@ void back_garage(){
     rt_thread_delay(5000);
     //³ö¿â
     car_go(4,4);
-    rt_thread_delay(350);
+    rt_thread_delay(garage_c);
     go_angel(0,2,400);
     car_go(4,4);
     rt_thread_delay(250);
@@ -442,14 +442,14 @@ void go_angel(int target_angel,int target_speed,int16 duty){
 
 void cefang(){
     car_go(3,3);
-    rt_thread_delay(600);
+    rt_thread_delay(cefang_a);
     car_stop();
-    rt_mb_send(buzzer_mailbox,500);
     rt_thread_delay(1000);
-    go_angel(53,-3,400);
+    rt_mb_send(buzzer_mailbox,500);
+    go_angel(cefang_b,-3,400);
     go_angel(3,-2,400);
     car_go(3,3);
-    rt_thread_delay(100);
+    rt_thread_delay(cefang_c);
 
     //Í£³µ
     car_stop();

@@ -100,24 +100,23 @@ void config_page(){
             break;
         default:break;
     }
-    ips200_showstr(30,line,"MileKX:");
-    ips200_showfloat(100,line,MileageKx,1,5);
-    ips200_showfloat(200,line,Car.MileageX,3,2);
-    ips200_showstr(30,line+1,"MileKY:");
-    ips200_showfloat(100,line+1,MileageKy,1,5);
-    ips200_showfloat(200,line+1,Car.MileageY,3,2);
-    ips200_showstr(30,line+2,"AngelP:");
-    ips200_showfloat(100,line+2,Angel_KP,2,3);
-    ips200_showstr(30,line+3,"AngelI:");
-    ips200_showfloat(100,line+3,Angel_KI,2,3);
-    ips200_showstr(30,line+4,"AngelD:");
-    ips200_showfloat(100,line+4,Angel_KD,2,3);
+
+    ips200_showstr(30,line,"garage_a:");
+    ips200_showint16(100,line,garage_a);
+    ips200_showstr(30,line+1,"garage_b:");
+    ips200_showint16(100,line+1,garage_b);
+    ips200_showstr(30,line+2,"garage_c:");
+    ips200_showint16(100,line+2,garage_c);
+    ips200_showstr(30,line+3,"cefang_a:");
+    ips200_showint16(100,line+3,cefang_a);
+    ips200_showstr(30,line+4,"cefang_b:");
+    ips200_showint16(100,line+4,cefang_b);
     ips200_showstr(30,line+5,"MotorP:");
     ips200_showfloat(100,line+5,Position_KP,3,2);
-    ips200_showstr(30,line+6,"MotorI:");
-    ips200_showfloat(100,line+6,Position_KI,3,2);
+    ips200_showstr(30,line+6,"cefang_c:");
+    ips200_showint16(100,line+6,cefang_c);
     ips200_showstr(30,line+7,"MotorD:");
-    ips200_showfloat(100,line+7,Position_KD,3,2);
+    ips200_showint16(100,line+7,Position_KD);
 }
 void display_page(){
     if(Gui_Page_Active){

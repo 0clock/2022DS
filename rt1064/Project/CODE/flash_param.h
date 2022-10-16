@@ -39,6 +39,9 @@ extern float Position_KP;
 extern float Position_KI;
 extern float Position_KD;
 
+extern int garage_a,garage_b,garage_c;
+extern int cefang_a,cefang_b,cefang_c;
+
 void flash_param_init();
 
 bool flash_param_check();
