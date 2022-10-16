@@ -62,7 +62,7 @@ void ICM_getValues() {
 
 
     //陀螺仪角度转弧度
-    icm_data.gyro_x = ((float) icm_gyro_x - GyroOff set.Xdata) * M_PI / 180 / 16.4f;
+    icm_data.gyro_x = ((float) icm_gyro_x - GyroOffset.Xdata) * M_PI / 180 / 16.4f;
     icm_data.gyro_y = ((float) icm_gyro_y - GyroOffset.Ydata) * M_PI / 180 / 16.4f;
     icm_data.gyro_z = ((float) icm_gyro_z - GyroOffset.Zdata) * M_PI / 180 / 16.4f;
 }

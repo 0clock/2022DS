@@ -388,40 +388,28 @@ void car_xunxian(){
 }
 
 void back_garage(){
-    float angeltemp;
-    car_go(-4,-4);
-    rt_thread_delay(390);
-    smotor1_control(-400);
-    angeltemp=Car.Angel;
-    while(1){
-        car_go(-3,-3);
-        if(Car.Angel-angeltemp>=83){
-            rt_mb_send(buzzer_mailbox, 100);
-            smotor1_control(0);
-            break;
-        }
-    }
-
-    car_go(-3,-3);
-    rt_thread_delay(500);
-    rt_mb_send(buzzer_mailbox,100);
     car_stop();
-    rt_thread_delay(5000);
-    rt_mb_send(buzzer_mailbox, 100);
-    car_stop();
-    angeltemp=Car.Angel;
-    //出库
-    car_go(3,3);
-    rt_thread_delay(500);
-    smotor1_control(-400);
-    while (1){
-        if(angeltemp-Car.Angel>=88){
-            smotor1_control(0);
-            break;
-        }
-        rt_thread_delay(10);
-    }
+    rt_mb_send(buzzer_mailbox, 500);
     rt_thread_delay(1000);
+    car_go(-2,-2);
+    rt_thread_delay(210);
+    go_angel(88,-3,400);
+    go_angel(90,-3,50);
+
+
+    car_go(-2,-2);
+    rt_thread_delay(600);
+    car_stop();
+
+    //停车
+    rt_mb_send(buzzer_mailbox, 500);
+    rt_thread_delay(5000);
+    //出库
+    car_go(4,4);
+    rt_thread_delay(350);
+    go_angel(0,2,400);
+    car_go(4,4);
+    rt_thread_delay(250);
     car_stop();
 }
 
@@ -453,54 +441,26 @@ void go_angel(int target_angel,int target_speed,int16 duty){
 }
 
 void cefang(){
-    float temp;
     car_go(3,3);
-    rt_thread_delay(900);
-    car_go(-6,-6);
-    smotor1_control(-350);
-    temp=Car.Angel;
-    while(1){
-        rt_thread_delay(1);
-        if(Car.Angel-temp>=40){
-            car_go(-7,-7);
-            smotor1_control(400);
-            break;
-        }
-    }
-    temp=Car.Angel;
-    while(1){
-        rt_thread_delay(1);
-        if(temp-Car.Angel>=38){
-            smotor1_control(0);
-            break;
-        }
-    }
-    car_go(-3,-3);
-    rt_thread_delay(100);
+    rt_thread_delay(600);
     car_stop();
-    rt_thread_delay(5000);
-    temp=Car.Angel;
-    //出库
-    car_go(3,3);
-    smotor1_control(400);
-    while(1){
-        rt_thread_delay(1);
-        if (Car.Angel- abs(temp)>=45){
-            smotor1_control(-400);
-            break;
-        }
-    }
-    temp=Car.Angel;
-    while(1){
-        rt_thread_delay(1);
-            if(Car.Angel<4){
-            smotor1_control(0);
-            break;
-        }
-    }
-    car_go(3,3);
-    car_xunxian();
+    rt_mb_send(buzzer_mailbox,500);
     rt_thread_delay(1000);
+    go_angel(53,-3,400);
+    go_angel(3,-2,400);
+    car_go(3,3);
+    rt_thread_delay(100);
+
+    //停车
+    car_stop();
+    rt_mb_send(buzzer_mailbox,500);
+    rt_thread_delay(5000);
+
+
+    go_angel(48,3,400);
+    go_angel(-2,3,300);
+    car_go(2,2);
+    rt_thread_delay(500);
     car_stop();
 }
 

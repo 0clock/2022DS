@@ -15,25 +15,12 @@ void find_t_times(){
         t_times++;
     }
     temp=findT;
-    rt_thread_delay(50);
+    rt_thread_delay(10);
 }
 
 void task_entry(){
-    //≤‚ ‘go_angel
-//    while(1){
-//        go_angel(-45,3,400);
-//        rt_thread_delay(3000);
-//        go_angel(45,3,400);
-//        rt_thread_delay(3000);
-//        go_angel(0,3,400);
-//        rt_thread_delay(3000);
-//        car_go(-7,-7);
-//        rt_thread_delay(5000);
-//        car_stop();
-//    }
 
 
-    bool temp=false;
     car_go(5,5);
     while(1){
         car_xunxian();
@@ -51,8 +38,13 @@ void task_entry(){
         }
     }
     cefang();
-    car_go(-7,-7);
-    rt_thread_delay(5000);
+    car_xunxian();
+
+    go_angel(-3,5,400);
+
+
+    car_go(-15,-15);
+    rt_thread_delay(2500);
     car_stop();
 }
 void task_init(void)
