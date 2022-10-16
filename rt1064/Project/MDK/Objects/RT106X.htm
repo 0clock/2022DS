@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\RT106X.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\RT106X.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6160001: Last Updated: Sun Oct 16 09:52:39 2022
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6160001: Last Updated: Sun Oct 16 12:12:42 2022
 <BR><P>
 <H3>Maximum Stack Usage =        864 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -2337,11 +2337,13 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[1b5]"></a>car_go</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, motor.o(.text.car_go))
-<BR><BR>[Called By]<UL><LI><a href="#[1b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;go_angel
+<BR><BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_entry
+<LI><a href="#[1b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;go_angel
 </UL>
 
 <P><STRONG><a name="[1b6]"></a>car_stop</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, motor.o(.text.car_stop))
-<BR><BR>[Called By]<UL><LI><a href="#[1b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;go_angel
+<BR><BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_entry
+<LI><a href="#[1b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;go_angel
 </UL>
 
 <P><STRONG><a name="[103]"></a>cmd_free</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, msh.o(.text.cmd_free))
@@ -2573,7 +2575,7 @@ Global Symbols
 <LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ICM_getEulerianAngles
 </UL>
 
-<P><STRONG><a name="[1b3]"></a>go_angel</STRONG> (Thumb, 162 bytes, Stack size 32 bytes, carmove.o(.text.go_angel))
+<P><STRONG><a name="[1b3]"></a>go_angel</STRONG> (Thumb, 232 bytes, Stack size 32 bytes, carmove.o(.text.go_angel))
 <BR><BR>[Stack]<UL><LI>Max Depth = 632<LI>Call Chain = go_angel &rArr; smotor1_control &rArr; pwm_duty &rArr; PWM_UpdatePwmDutycycle &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[199]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
@@ -4022,11 +4024,13 @@ Global Symbols
 <LI><a href="#[188]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ips200_init
 </UL>
 
-<P><STRONG><a name="[ec]"></a>task_entry</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, task.o(.text.task_entry))
+<P><STRONG><a name="[ec]"></a>task_entry</STRONG> (Thumb, 88 bytes, Stack size 0 bytes, task.o(.text.task_entry))
 <BR><BR>[Stack]<UL><LI>Max Depth = 632<LI>Call Chain = task_entry &rArr; go_angel &rArr; smotor1_control &rArr; pwm_duty &rArr; PWM_UpdatePwmDutycycle &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr;  __aeabi_assert (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[199]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
 <LI><a href="#[1b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;go_angel
+<LI><a href="#[1b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;car_stop
+<LI><a href="#[1b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;car_go
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> task.o(.text.task_init)
 </UL>

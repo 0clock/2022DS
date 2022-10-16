@@ -433,7 +433,7 @@ void go_angel(int target_angel,int target_speed,int16 duty){
         }else{
             smotor1_control(duty);
         }
-        while () {
+        while (Car.Angel>target_angel+2||Car.Angel<target_angel-2) {
             car_go(target_speed,target_speed);
             rt_thread_delay(1);
         }
@@ -443,7 +443,7 @@ void go_angel(int target_angel,int target_speed,int16 duty){
         }else{
             smotor1_control(-duty);
         }
-        while (Car.Angel!=target_angel) {
+        while (Car.Angel>target_angel+2||Car.Angel<target_angel-2){
             car_go(target_speed,target_speed);
             rt_thread_delay(1);
         }

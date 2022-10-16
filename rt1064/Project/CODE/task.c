@@ -20,10 +20,17 @@ void find_t_times(){
 
 void task_entry(){
     //≤‚ ‘go_angel
-    while(1){
-        go_angel(-45,3);
-        rt_thread_delay(3000);
-    }
+//    while(1){
+//        go_angel(-45,3,400);
+//        rt_thread_delay(3000);
+//        go_angel(45,3,400);
+//        rt_thread_delay(3000);
+//        go_angel(0,3,400);
+//        rt_thread_delay(3000);
+//        car_go(-7,-7);
+//        rt_thread_delay(5000);
+//        car_stop();
+//    }
 
 
     bool temp=false;
