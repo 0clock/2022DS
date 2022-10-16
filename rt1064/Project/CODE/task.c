@@ -24,7 +24,7 @@ void task_all(){
     car_go(5,5);
     while(1){
         car_xunxian();
-        if(t_times>=4){
+        if(t_times>=3){
             break;
         }
     }
@@ -49,7 +49,7 @@ void only_garage(){
     car_go(5,5);
     while(1){
         car_xunxian();
-        if(t_times>=4){
+        if(t_times>=3){
             break;
         }
     }
