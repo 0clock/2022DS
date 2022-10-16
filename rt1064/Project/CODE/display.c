@@ -167,8 +167,6 @@ void display_page(){
 
 void display_entry(void *parameter)
 {
-
-
     while(1){
         display_page();
         //ips200_showstr(10,0,"camera");

@@ -17,5 +17,6 @@ void cefang();
 void carmove_mileage(float x,float y);
 void car_xunxian();
 void t_locate_right();
+void go_angel(int target_angel,int target_speed,int16 duty);
 
 #endif //MY_SMARTCAR_RTT_CARMOVE_H

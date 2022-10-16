@@ -19,6 +19,13 @@ void find_t_times(){
 }
 
 void task_entry(){
+    //≤‚ ‘go_angel
+    while(1){
+        go_angel(-45,3);
+        rt_thread_delay(3000);
+    }
+
+
     bool temp=false;
     car_go(5,5);
     while(1){

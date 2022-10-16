@@ -425,6 +425,33 @@ void back_garage(){
     car_stop();
 }
 
+void go_angel(int target_angel,int target_speed,int16 duty){
+    float angeltemp=Car.Angel;
+    if(target_angel-Car.Angel>0&&target_angel-Car.Angel<=180){
+        if(target_speed<0) {
+            smotor1_control(-duty);
+        }else{
+            smotor1_control(duty);
+        }
+        while () {
+            car_go(target_speed,target_speed);
+            rt_thread_delay(1);
+        }
+    }else{
+        if(target_speed<0) {
+            smotor1_control(duty);
+        }else{
+            smotor1_control(-duty);
+        }
+        while (Car.Angel!=target_angel) {
+            car_go(target_speed,target_speed);
+            rt_thread_delay(1);
+        }
+    }
+    car_stop();
+    smotor1_control(0);
+}
+
 void cefang(){
     float temp;
     car_go(3,3);
