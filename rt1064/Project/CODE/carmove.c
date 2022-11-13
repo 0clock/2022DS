@@ -389,11 +389,10 @@ void car_xunxian(){
 }
 
 void back_garage(){
-    car_stop();
-    rt_thread_delay(1000);
-    rt_mb_send(buzzer_mailbox, 500);
-    car_go(-2,-2);
+    car_go(2,2);
     rt_thread_delay(garage_a);
+    car_stop();
+    rt_mb_send(buzzer_mailbox, 500);
     go_angel(88,-3,400);
     go_angel(90,-3,50);
 
